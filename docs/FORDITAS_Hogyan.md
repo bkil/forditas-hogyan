@@ -1,7 +1,3 @@
----
-title: Fordítás Hogyan
----
-
 # Bevezetés
 
 Napjainkban számtalan szoftver és mellékelt dokumentum, használati útmutató érhető el angolul. A legtöbb projekt lehetőséget biztosít a felhasználói felületek, súgók és dokumentációk honosítására, így magyar változat is készíthető. Ezeket a fordításokat általában erre a célra kialakított webes fordítói felületen vagy a nyelvi fájlokat letöltve – egy célprogramban – fordítjuk le. Ezek az eszközök segítenek az egységes és jó minőségű fordítások gyorsabb elkészítésében.
