@@ -283,18 +283,18 @@ Egybeírjuk, ha határozószó, vagyis ha az a vagy e nem értelmezhető mutató
 | **_internet_** | Kis i, nem tulajdonnév, mára köznevesült. |
 | **_internetelérés_** | Csak hat szótag, ezért egyben van. |
 | **_internet-hozzáférés_** | Kötőjellel. |
-| **_irt_** (jelen idejű ige) | Rövid i. **_Vírusirtó_** |
+| **_irt_** (jelen idejű ige) | Rövid i. Például **_vírusirtó_** |
 | **_kiváló_** | Rövid i. |
 | **_kíván, kíváncsi_** | Hosszú í. |
 | **_kisbetű_** | Ha azt kell kifejezni, hogy abcde és nem ABCDE, akkor egy szó. Ha esetleg nagyítóval alig olvasható szövegről van szó, <small>Mint Ez Itt</small> (ami persze tartalmazhat kis- és és nagybetűket is), akkor ez a szöveg **_kis betűkkel_** van írva. |
-| **_l._** | =lásd. Nem <u>ld.</u> és nem is <u>lsd.</u>. Lehetőleg inkább írd ki, hogy **_lásd_**. |
-| **_licenc, licence, licencet, licenccel, licencel_** | Nem <u>licensz</u> és nem is <u>liszensz</u>! (Az angol alak license, tehát például GPL = General Public License, ezt nem fordítjuk le magyarra.) A magyarba német közvetítéssel jutott. |
+| **_l._** | =lásd. Nem ~~ld.~~ és nem is ~~lsd.~~. Lehetőleg inkább írd ki, hogy **_lásd_**. |
+| **_licenc, licence, licencet, licenccel, licencel_** | Nem ~~licensz~~ és nem is ~~liszensz~~! (Az angol alak license, tehát például GPL = General Public License, ezt nem fordítjuk le magyarra.) A magyarba német közvetítéssel jutott. |
 | **_merevlemez_** | Egy szó. |
 | **_minél_** | Egy n. Minél több, annál jobb. |
 | **_muszáj_** | Pontos j, de egyébként se használjuk ezt a szót írott nyelvben. |
 | **_partíció_** | Hosszú í. |
 | **_particionál, particionálás_** | Rövid i. |
-| **_pl._** | = például. A végén van pont, hamarabb nincs. Nem <u>pld.</u>. Lehetőleg inkább írd ki, hogy **_például_**. |
+| **_pl._** | = például. A végén van pont, hamarabb nincs. Nem ~~pld.~~. Lehetőleg inkább írd ki, hogy **_például_**. |
 | **_projekt_** | j és k betűkkel. |
 | **_protokoll_** | k, majd két l. |
 | **_robusztus_** | Középen u betűvel. |
@@ -302,7 +302,7 @@ Egybeírjuk, ha határozószó, vagyis ha az a vagy e nem értelmezhető mutató
 | **_semmilyen_** | Két m. |
 | **_szimbolikus_** | Rövid o. |
 | **_szintaxis_** | x betűvel. |
-| **_ti._** | =tudni illik. A végén van pont, de a közepén nincs. |
+| **_ti._** | =tudniillik. A végén van pont, de a közepén nincs. |
 | **_típus_** | Hosszú í. |
 | **_ún._** | =úgynevezett. A végén van pont, de a közepén nincs. Hosszú ú. |
 | **_utána_** | Egy n. |

@@ -27,7 +27,7 @@ Ne essünk át azonban a ló túlsó oldalára, a magyarítás soha ne menjen az
 
 Alapvetően személytelen egyes harmadik személyű megszólítást használunk (például **_kattintson ide_**), ha mégis szükséges a felhasználó közvetlen megszólítása, akkor önözést használunk. A felhasználót nem tegezzük sem a felhasználói felületeken, sem a dokumentációkba.
 
-> **_Kattintson ide. Ekkor megjelenik egy ablak, mely közli, hogy…***
+> **_Kattintson ide. Ekkor megjelenik egy ablak, mely közli, hogy…_**
 > **_Ha ezt meg ezt szeretné, kattintson ide. Ha ki akar lépni, nyomja le az Escape billentyűt…_**
 
 A személytelenségre törekvés nem csak az angolban igen gyakori birtokos szerkezetekre vonatkozik (például _your_ computer → a számítógép), hanem lehetőség szerint az igei szerkezetekben is a teljesen személytelen alakot kell választani (például „Then _you can set_ new options.” = „Ekkor új beállításokat is **_meg lehet adni_**.”).
@@ -36,12 +36,16 @@ A személytelenségre törekvés nem csak az angolban igen gyakori birtokos szer
 
 A stílus körébe tartozik az az általános szabály is, mely szerint a nem teljes mondat értékű igei szerkezetek főnevesítve fordítandók. Ezt a szabályt követjük magának a programnak a fordításakor is.
 
+|angol|magyar|
+|-|-|
 |Open|**_Megnyitás_**|
 |Save|**_Mentés_**|
 |Exit|**_Kilépés_**|
 
 E szabály alól van két jelentős kivétel:
 
+|angol|magyar|
+|-|-|
 |Apply|**_Alkalmaz_**|
 |Cancel|**_Mégse_**|
 

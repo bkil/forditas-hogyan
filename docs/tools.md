@@ -155,7 +155,7 @@ A dátumok tagolására angolul használatos a / jel, magyarul inkább szóköz�
 
 ### .pot fájlok előállítása
 
-A .pot fájlokat általában a projekt honlapjáról letölthető tarballok tartalmazzák, így ha egy ilyen formában beszerzett programot akarunk fordítani, a /po könyvtárban megtaláljuk. Más a helyzet, ha egy CVS-ből származó programunk van, vagy egyszerűen csak meg akarunk győződni, hogy a .pot fájl naprakész. A GTK+-t használó programok esetén általában ezt a /po könyvtárban kiadott intltool-update --pot paranccsal állíthatjuk elő. ([FIXME](FIXME "wikilink"): Qt?)
+A `.pot` fájlokat általában a projekt honlapjáról letölthető tarballok tartalmazzák, így ha egy ilyen formában beszerzett programot akarunk fordítani, a `/po` könyvtárban megtaláljuk. Más a helyzet, ha egy CVS-ből származó programunk van, vagy egyszerűen csak meg akarunk győződni, hogy a `.pot` fájl naprakész. A GTK-t használó programok esetén általában ezt a `/po` könyvtárban kiadott `intltool-update --pot` paranccsal állíthatjuk elő.
 
 ### .po fájlok aktualizálása
 
@@ -165,7 +165,7 @@ A /po könyvtárban kiadott make update-po parancs a fenti műveletet az összes
 
 ### Eltérő verziók kezelése
 
-Előfordulhat, hogy mire egy .pot/.po fájl fordításával elkészülünk, addigra a forrásban új üzenetek jelennek meg, vagy egyszerűen tévedésből csak egy régebbi verziót fordítunk le. Ilyenkor rendelkezünk egy naprakész .pot/.po fájllal (uj.po) és egy nem naprakész, ám számottevő munkát tartalmazó korábbi verzióval (regi.po). Az üzenetek átvitele a regi.po-ból az uj.po-ba:
+Előfordulhat, hogy mire egy `.pot/.po` fájl fordításával elkészülünk, addigra a forrásban új üzenetek jelennek meg, vagy egyszerűen tévedésből csak egy régebbi verziót fordítunk le. Ilyenkor rendelkezünk egy naprakész `.pot/.po` fájllal (`uj.po`) és egy nem naprakész, ám számottevő munkát tartalmazó korábbi verzióval (regi.po). Az üzenetek átvitele a `regi.po` fájlból az `uj.po` fájlba:
 
 ```
 $ msgmerge -o eredmeny.po regi.po uj.po
