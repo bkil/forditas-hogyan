@@ -1,4 +1,5 @@
 run:
+	mkdir -p build
 	pandoc docs/intro.md \
                docs/spelling.md \
                docs/grammar.md \
@@ -6,5 +7,5 @@ run:
                docs/expressions.md \
                docs/common-problems.md \
                docs/tools.md \
-               -o forditas-hogyan.html
+               -o build/forditas-hogyan.html
 
