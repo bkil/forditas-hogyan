@@ -12,7 +12,7 @@ A _-val/-vel_, valamint a _-vá/-vé_ rag _v_ betűje, amennyiben a szótő kiej
 
  - **_1-gyel_**, **_2-vel_**, **_3-mal_**, **_4-gyel_**, **_5-tel_**, **_10-zel_**, **_20-szal_**, **_30-cal_**, **_100-zal_**, **_1000-rel_**, …
  - **_Linuxszal_**, **_Windowszal_**, **_YaST-tal_**, **_Netscape-pel_**, **_Internet Explorerrel_**, **_Oracle-lel_**, **_Macintoshsal_**, **_X-szel_**, **_GNOME-mal_**, **_LibreOffice-szal_**, stb.
- - **_%-kal_** (százalékkal), **_@-cal_** (kukaccal), stb.
+ - **_%-kal_** (százalékkal), **_\@-cal_** (kukaccal), stb.
  - **_n-nel_**, **_2<sup>n</sup>-nel_** (kettő az n-edikennel), **_n<sup>3</sup>-nal_** (n a harmadikonnal) vagy **_n<sup>3</sup>-nel_** (n a köbönnel) vagy **_n<sup>3</sup>-bel_** (n köbbel), esetleg **_n<sup>3</sup>-mal_** (n ad hárommal), de mindenképpen az egyik lehetséges kiejtéshez kell a ragot igazítanunk
 
 Sok esetben nem egyértelmű, hogy milyen hangzóra is végződik az angol szó kiejtése. Az írásban _s_-re végződő angol szavak kiejtése általában _z_ hanggal végződik (pl. _Windows_), de vannak szavak, melyek kiejtése _sz_-szel zárul (pl. _case_). Nem egyértelmű az sem, hogy például az _Apple_ kiejtése _l_ vagy _ö_ hangra, a _delay_ kiejtése _é_ vagy _j_ hangra végződik stb. Ilyenkor törekedjünk a kerülő megfogalmazásra, hogy a kérdéses szó ne kapjon ragot (például <u>delay-jel</u> helyett **_delay kapcsolóval_**, <u>Apple-lel</u> helyett **_Apple számítógéppel_**).

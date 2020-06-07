@@ -48,8 +48,10 @@ Ha ilyen van az angol eredetiben, akkor a magyarban nem vesszük át. (Lásd: Fr
 
 Az előbbihez hasonló jelenség amikor karakterlánc végén is áll egy szóköz, például:
 
-> msgid "Options "
-> msgstr "Beállítások "
+```python
+msgid "Options "
+msgstr "Beállítások "
+```
 
 Ezt a szóközt általában azért érdemes meghagyni, mert lehet, hogy a programozó sietett és nem állította be [helyesen a térközt](http://library.gnome.org/devel/hig-book/stable/design-text-labels.html.en#layout-label-position), és helyette egy szóközzel javított a felület megjelenésén. Praktikus hibaként bejelenteni és kérni az eredetiből a szóköz eltávolítását, akár hivatkozva az imént hivatkozott GNOME HIG-re (ha az adott projektnél ezt figyelembe veszik).
 
@@ -57,11 +59,13 @@ Ezt a szóközt általában azért érdemes meghagyni, mert lehet, hogy a progra
 
 Néha előfordul, hogy egy mondat két külön <code>msgid</code>-ben van leírva, a kettő között pedig általában valamilyen felületi elem például léptetőgomb áll. Ezt arról lehet felismerni, hogy egymás után két fél-mondat áll, amik „mintha” összetartoznának, és a megjegyzésben az előfordulási helyük csak néhány (&lt;10) sornyira van egymástól. Ilyenkor nem kell nagyon ragaszkodni külön-külön az eredeti karakterláncok értelméhez, elég, ha a két üzenet együtt adja vissza a teljes mondat értelmét. Például:
 
-> msgid "S_witch off after:"
-> msgstr "Kika_pcsolás:"
-> 
-> msgid "minutes"
-> msgstr "perc után"
+```python
+msgid "S_witch off after:"
+msgstr "Kika_pcsolás:"
+ 
+msgid "minutes"
+msgstr "perc után"
+```
 
 Ez a programban valahogy így néz ki: Kika\_pcsolás: &lt;10&gt; perc után
 
