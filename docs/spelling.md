@@ -111,7 +111,7 @@ A gondolatjel formailag az elé és mögé tapadó szóközben tér el a nagykö
 
 Használható:
 
- - bizonyos mértékig elkülönülő gondolatsorok elválasztásához, a mondatvégi írásjelt követően;
+ - bizonyos mértékig elkülönülő gondolatsorok elválasztásához, a mondatvégi írásjelet követően;
  - közbevetés – melyet vesszőkkel vagy zárójelekkel is keretezhetünk – jelöléséhez;
  - idézetek, párbeszédek szedéséhez.
 
@@ -121,7 +121,7 @@ Negatív előjel és kivonás jelölésére használjuk. Elvileg illeszkedik az 
 
 ### Felsorolások helyesírása
 
-Ha a felsorolás egyes elemei önálló mondatot alkotnak, minden tagot nagybetűvel kezdünk, és minden tag végére pont kerül.
+Ha a felsorolás egyes elemei önálló mondatot alkotnak, minden tagot nagybetűvel kezdünk és ponttal zárunk.
 
 > Ha be szeretnénk zárni az ablakot, hajtsuk végre a következő műveleteket:
 > 
@@ -151,10 +151,10 @@ A számmal írt sorszámnevek után minden esetben pont áll: **_3. osztály, 3
 
 Ugyanez érvényes a számmal írt dátum minden elemére is: **_1997. XI. 12._**
 
-Az évszámot követő pont elhagyandó, ha az évszámot:
+Az évszámot követő pont elhagyandó, ha:
 
- - névutó, vagy névutóból képzett melléknév követi; **_1848 előtt_**
- - kötőjellel kapcsolt toldalék követi; **_1849-ben_**, (ez napot jelölő számra is érvényes **_október 6-án_**)
+ - az évszámot névutó, vagy névutóból képzett melléknév követi; **_1848 előtt_**
+ - az évszámot kötőjellel kapcsolt toldalék követi; **_1849-ben_**, (ez napot jelölő számra is érvényes **_október 6-án_**)
  - az évszám egy birtokos szerkezet eleme; **_1969 nyara_**
  - az évszám a mondat alanya. **_1991 a Linux születésének éve_**
 
@@ -307,6 +307,6 @@ Egybeírjuk, ha határozószó, vagyis ha az a vagy e nem értelmezhető mutató
 | **_ún._** | =úgynevezett. A végén van pont, de a közepén nincs. Hosszú ú. |
 | **_utána_** | Egy n. |
 | **_utolsó, utoljára_** | Rövid o. |
-| **_video- (videokártya, videomód, videomagnó, videokamera, video-CD)_** | szóösszetételben, illetve jelzőként rövid o. Egyedül az önálló szóként, videomagnó értelemben elterjedt **_videó_** szó van hosszú ó-val. |
+| **_video- (videokártya, videomód, videomagnó, videokamera, video-CD)_** | szóösszetételben, illetve jelzőként rövid o. Egyedül az önálló szóként, videomagnó vagy mozgókép-felvétel értelemben elterjedt **_videó_** szó van hosszú ó-val. |
 | **_vö._** | =vesd össze. A végén van pont, de a közepén nincs. |
 

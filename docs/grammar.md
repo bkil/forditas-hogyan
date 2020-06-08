@@ -29,7 +29,7 @@ A fenti példában a csupasz főnévi igenév értelmi zavart okoz, de a ragozot
 
 ## Mondatkezdés
 
-Kerüljük az *és*, *azonban*, *viszont*, *illetve*, *hát* szavakat a mondatok elején.
+Kerüljük az *és*, *azonban*, *viszont*, *illetve* és *hát* szavakat a mondat elején.
 
 ## Rövidítések
 
@@ -64,7 +64,7 @@ Vannak számítástechnikában is elterjedt igék, melyeket úgy használunk, mi
 
 <!--## Optimális
 
-Vannak jelzők, melyek jelentésük alapján már felsőfokban állnak, habár formailag ez nem látszik rajtuk. Ilyen például az **_optimális_**, amely azt jelenti, hogy valamilyen szempont(ok) vagy komplex szempontrendszer szerint a legjobb. Ezt a szót teljesen értelmetlen tovább fokozni, középfokú és felsőfokú alakja nem létezik. Ha valaki aki azt mondja, hogy ~~legoptimálisabb~~ (vagyis *leglegjobbabb*), az olyan, mint ha verseny *első helyezettje*, azaz *győztese* helyett azt mondaná valaki, hogy *legelsőbb* vagy *leggyőztesebb*.-->
+Vannak jelzők, melyek jelentésük alapján már felsőfokban állnak, habár formailag ez nem látszik rajtuk. Ilyen például az **_optimális_**, amely azt jelenti, hogy valamilyen szempont(ok) vagy komplex szempontrendszer szerint a legjobb. Ezt a szót teljesen értelmetlen tovább fokozni, középfokú és felsőfokú alakja nem létezik. Ha valaki aki azt mondja, hogy ~~legoptimálisabb~~ (vagyis *legeslegjobb*), az olyan, mintha egy verseny *első helyezettje*, azaz *győztese* helyett azt mondaná valaki, hogy ~~legelsőbb~~ vagy ~~leggyőztesebb~~.-->
 
 ## Magyar nyelven
 
@@ -76,11 +76,19 @@ Szerencsésebb azt mondani, hogy egy program „magyarul” szól a felhasznál�
 
 ## Idegen szavak átírása
 
-TODO: 
+<!-- FIXME TODO: -->
 
-(Felmerült, hogy miután a szótárban szerepel a **_kapucsínó_** szó, mint helyes magyar alak, azután ennek a bekezdésnek semmi helye itt. De azért szerintem igenis van...)
+<!-- (Felmerült, hogy miután a szótárban szerepel a **_kapucsínó_** szó, mint helyes magyar alak, azután ennek a bekezdésnek semmi helye itt. De azért szerintem igenis van…) -->
 
-Mindig újabb és újabb idegen szavak jelennek meg, melyeket fonetikusan megpróbál valaki átírni. Óvakodjunk ezektől. Ha csak lehet, irtsuk az ~~imidzs~~ meg ehhez hasonló borzalmakat. Ezek a szavak még messze nem annyira részei nyelvünknek, hogy jogos legyen magyarul írni őket. Lehetőség szerint használjuk a magyar terminológiát (jelen konkrét példánál **_lemezkép_**), de ha nincs jó magyar szó, vagy az adott szövegkörnyezetben az angol terminológiát kell használni, akkor írjuk le az angolt változatlanul (például **_image_**). Megjegyzendő, hogy még a bájt alakot sem vette át a magyar helyesírás, a **_byte_** a helyes magyar írásmód a szótár szerint (a báj szó tárgyragos változata miatt fogadja el a Hunspell). Az ~~imidzs~~ láttán előre rettegek a ~~rútpásszvörd~~, ~~bútolás~~, ~~fréjmbáfför~~, ~~vizárd~~, ~~profájl~~, ~~pájp~~, ~~fléjmelés~~, ~~szájt~~, ~~fúbár~~ meg ehhez hasonló torzszülemények megjelenésétől. Véleményem szerint a ~~domén~~ (vagy akkor már miért nem ~~doméjn~~?) is ebbe a kategóriába tartozik, maradjunk a **_domain_** (de inkább **_tartomány_**) írásmódnál.-->
+Mindig újabb és újabb idegen szavak jelennek meg, melyeket fonetikusan megpróbál valaki átírni. Óvakodjunk ezektől. Ha csak lehet, irtsuk az ~~imidzs~~ meg ehhez hasonló borzalmakat. Ezek a szavak még messze nem annyira részei nyelvünknek, hogy jogos legyen magyarul írni őket. Lehetőség szerint használjuk a magyar terminológiát (jelen konkrét példánál **_lemezkép_**), de ha nincs jó magyar szó, vagy az adott szövegkörnyezetben az angol terminológiát kell használni, akkor írjuk le az angolt változatlanul (például **_image_**). Megjegyzendő, hogy még a bájt alakot sem vette át a magyar helyesírás, a **_byte_** a helyes magyar írásmód a szótár szerint (a báj szó tárgyragos változata miatt fogadja el a Hunspell). Az ~~imidzs~~ láttán előre rettegek a ~~rútpásszvörd~~, ~~bútolás~~, ~~fréjmbáfför~~, ~~vizárd~~, ~~profájl~~, ~~pájp~~, ~~fléjmelés~~, ~~szájt~~, ~~fúbár~~ meg ehhez hasonló torzszülemények megjelenésétől.
+
+<!–- Véleményem szerint a ~~domén~~ (vagy akkor már miért nem ~~doméjn~~?) is ebbe a kategóriába tartozik, maradjunk a **_domain_** (de inkább **_tartomány_**) írásmódnál. -->
+
+Ezzel szemben néhány közismert példa ahol a fonetikus átírás is elfogadható:
+
+* **_domén_** (vagy bizonyos jelentésben **_tartomány_**)
+* **_emodzsi_**
+* **_kapucsínó_**
 
 ## Az /etc és társai
 

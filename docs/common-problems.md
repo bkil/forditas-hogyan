@@ -77,9 +77,9 @@ Ez a programban valahogy így néz ki: Kika\_pcsolás: &lt;10&gt; perc után
 
 Az ilyen karakterláncokat is érdemes hibaként bejelenteni.
 
-## Nem elérhető, nem kikereshető, nem feldolgozható, nem visszaváltható
+## Nem elérhető, nem kikereshető, nem feldolgozható, nem visszavonható
 
-Gyakran látni ezekhez hasonló helytelen szerkezeteket kezdő fordítók munkáiban. Ezeket **_nem érhető el_**, **_nem kereshető ki_**, **_nem dolgozható fel_** és **_nem váltható vissza_** alakban kell helyesen írni.
+Gyakran látni ezekhez hasonló helytelen szerkezeteket kezdő fordítók munkáiban. Ezeket **_nem érhető el_**, **_nem kereshető ki_**, **_nem dolgozható fel_** és **_nem vonható vissza_** alakban kell helyesen írni.
 
 ## 6:3
 
