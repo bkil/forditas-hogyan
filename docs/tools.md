@@ -37,9 +37,9 @@ msgid "Typing Break"
 msgstr "Gépelési szünet"
 ```
 
-Látható, hogy az új karakterlánc három szava közül kettő azonos egy meglévő fordítás eredetijével, így a gettext feltételezi, hogy valószínűleg a fordításuk is hasonló lehet. Az egész értelme, hogy így az új karakterlánc fordítása gyorsabban készülhet el, hiszen csak egy szót ("bővítmény") kell a meglévő rész végére írni. Hosszabb karakterláncek esetén ugyan kevésbé pontosak, mondhatni használhatatlanok a találatok, de ha egy bekezdésnyi karakterláncben csak egy typot javítanak, akkor kifejezetten pontos és hasznos tud lenni :).
+Látható, hogy az új karakterlánc három szava közül kettő azonos egy meglévő fordítás eredetijével, így a gettext feltételezi, hogy valószínűleg a fordításuk is hasonló lehet. Az egész értelme, hogy így az új karakterlánc fordítása gyorsabban készülhet el, hiszen csak egy szót ("bővítmény") kell a meglévő rész végére írni. Hosszabb karakterláncok esetén ugyan kevésbé pontosak, mondhatni használhatatlanok a találatok, de ha egy bekezdésnyi karakterláncban csak egy elgépelést javítanak, akkor kifejezetten pontos és hasznos tud lenni :).
 
-Ebből következik, hogy fordításkor a lefordítatlan karakterláncekkel együtt ezeket is ugyanúgy le kell fordítani, amit ez a szolgáltatás néha meggyorsít, de semmiképpen sem helyettesít!
+Ebből következik, hogy fordításkor a lefordítatlan karakterláncokkal együtt ezeket is ugyanúgy le kell fordítani, amit ez a szolgáltatás néha meggyorsít, de semmiképpen sem helyettesít!
 
 Meg kell még említeni az elavult üzeneteket is, amelyek a negyedik állapotfajtát jelentik. Ezek mindig a fájl legvégén találhatók és valahogy így néznek ki:
 
@@ -225,7 +225,7 @@ A program általános működésével kapcsolatos beállítások végezhetők it
 
 Az Általános fülön kapcsoljuk be az alábbi ellenőrzéseket:
 
- - A címkék ellenőrzése: ez ellenőrzi a lefordított szövegben található HTML-címkékmennyiségét, illetve a kezdő-záró párokat.
+ - A címkék ellenőrzése: ez ellenőrzi a lefordított szövegben található HTML-címkék mennyiségét, illetve a kezdő-záró párokat.
  - A gyorsbillentyűk ellenőrzése: ellenőrzi, hogy a gyorsbillentyű szerepel-e a lefordított szövegben.
  - Az argumentumok ellenőrzése: az argumentumok meglétét és sorrendjét ellenőrzi.
 
@@ -251,13 +251,13 @@ Itt egyetlen fájlt adhatunk csak meg, ebben keresi az aktuálissal egyező kara
 
 ### Összefoglaló fájl
 
-Ez egy adott projekt, például a [KDE](KDE "wikilink") adott nyelvre fordított összes karakterláncjének összeláncolásával létrejövő fájlban való keresést tesz lehetővé. Gyorsan kereshetünk vele az adott projekt által lefordított összes karakterlánc között, a megadott feltételek szerint. A KDE magyar nyelvű összefoglaló fájljai a <http://i18n.kde.org/teams/infos.php?teamcode=hu> KDE Localization - Information about Hungarian Team \[hu\]\] címről tölthetők le (az alapértelmezés hibás a 3.4.x és korábbi KBabelben). A [GNOME](GNOME "wikilink") egyelőre nem biztosít ilyet. Más projektek: [FIXME](FIXME "wikilink").
+Ez egy adott projekt, például a [KDE](KDE "wikilink") adott nyelvre fordított összes karakterláncának összeláncolásával létrejövő fájlban való keresést tesz lehetővé. Gyorsan kereshetünk vele az adott projekt által lefordított összes karakterlánc között, a megadott feltételek szerint. A KDE magyar nyelvű összefoglaló fájljai a <http://i18n.kde.org/teams/infos.php?teamcode=hu> KDE Localization - Information about Hungarian Team \[hu\]\] címről tölthetők le (az alapértelmezés hibás a 3.4.x és korábbi KBabelben). A [GNOME](GNOME "wikilink") egyelőre nem biztosít ilyet. Más projektek: [FIXME](FIXME "wikilink").
 
 A keresés beállításai közül érdemes a "tartalmazza a szöveg egy szavát" lehetőséget kihagyni, ugyanis ez rendkívül hosszú keresési időt eredményezhet még kis fájloknál is. Összefoglaló fájlként használhatunk egy terminológiai szótárat is, például a [<http://l10n-status.gnome.org/HEAD/PO/gnome-glossary.HEAD.hu.po>](http://l10n-status.gnome.org/HEAD/PO/gnome-glossary.HEAD.hu.po) címen elérhető gnome-glossaryt, ez a projekt által gyakran használt szavakat gyűjti össze, ez egy egységes terminológia kialakítását célozza.
 
 ### Fordítási adatbázis
 
-A leghasznosabb mind közül. Egy adatbázisba gyűjthetünk tetszőleges projektekből származó po-fájlokat, majd ebben kereshetünk. Feltöltéséhez először is be kell szerezni néhány po-fájlt: a kde projekttől az összefoglaló fájlnál megadott címről letölthető hu.messages elégséges, azonban a po & docs archive a dokumentációkat is tartalmazza, valamint a redundáns eredeti karakterláncek is megtalálhatóak, amelyek esetleg eltérő fordítással rendelkeznek.
+A leghasznosabb mind közül. Egy adatbázisba gyűjthetünk tetszőleges projektekből származó po-fájlokat, majd ebben kereshetünk. Feltöltéséhez először is be kell szerezni néhány po-fájlt: a kde projekttől az összefoglaló fájlnál megadott címről letölthető hu.messages elégséges, azonban a po & docs archive a dokumentációkat is tartalmazza, valamint a redundáns eredeti karakterláncok is megtalálhatóak, amelyek esetleg eltérő fordítással rendelkeznek.
 
 GNOME: az alábbi branchból beszerezhető gmirr.sh szkripttel:
 

@@ -30,7 +30,7 @@ Az angol eredetiben gyakran láthatók ehhez hasonló szerkezetek, például né
 
 ## Gyorsbillenty\_ű ékezet előtt
 
-Lehetőleg ne használjuk. Nem feltételezhetjük ugyanis, hogy mindenki, aki magyarul akarja a grafikus felületű alkalmazásokat használni, rendelkezik magyar billentyűzettel vagy magyar kiosztást használ.
+Lehetőleg ne használjuk. Nem feltételezhetjük ugyanis, hogy mindenki, aki magyarul akarja a grafikus felületű alkalmazást használni, rendelkezik magyar billentyűzettel, illetve magyar kiosztást használ.
 
 ## Gyorsbillentyűk ütközése
 
@@ -46,7 +46,7 @@ Ha ilyen van az angol eredetiben, akkor a magyarban nem vesszük át. (Lásd: Fr
 
 ## Szóköz karakterláncok végén
 
-Az előbbihez hasonló jelenség amikor karakterlánc végén is áll egy szóköz, például:
+Az előbbihez hasonló jelenség amikor a karakterlánc végén is áll egy szóköz, például:
 
 ```python
 msgid "Options "
@@ -83,7 +83,7 @@ A kétszavas összetételeket egybeírjuk. Például: **_menüikon_**, **_szinta
 
 ## Speciális helyeken lévő üzenetek
 
-Gyakran fordulnak elő olyan üzenetek, amelyek többféleképpen értelmezhetők/fordíthatók, attól függően, hogy hol vannak a programban, például ugyanaz a szöveg lehet egy parancssori kapcsoló, egy program vagy (GNOME esetén) egy GConf-kulcs leírása ugyanúgy, mint egy, a felhasználótól adatokat bekérő ablak címsora, így kezdő fordítók néha az előbbi három esetén is megszólítják a felhasználót, ami adott esetben szükségtelen. Ezeket arról lehet felismerni, hogy a főprogram első &lt;1000 sorában vannak (ez általában a programneve --help segítségével ellenőrizhető), vagy .desktop.in illetve `.schemas.in` fájlokban.
+Gyakran fordulnak elő olyan üzenetek, amelyek többféleképpen értelmezhetők/fordíthatók, attól függően, hogy hol vannak a programban, például ugyanaz a szöveg lehet egy parancssori kapcsoló, egy program vagy (GNOME esetén) egy GConf-kulcs leírása ugyanúgy, mint egy, a felhasználótól adatokat bekérő ablak címsora, így kezdő fordítók néha az előbbi három esetén is megszólítják a felhasználót, ami adott esetben szükségtelen. Ezeket arról lehet felismerni, hogy a főprogram első &lt;1000 sorában vannak (ez általában a `programneve --help` segítségével ellenőrizhető), vagy `.desktop.in` illetve `.schemas.in` fájlokban.
 
 Például, a „Specify a value” üzenet „Érték megadása”-ként fordítandó, ha a fenti három feltétel egyike teljesül, illetve „Adjon meg egy értéket”-ként, ha nem.
 
