@@ -328,24 +328,10 @@ Az alsó harmad bal oldalán a kifejezéstár és a megnyitott fájl(ok) alapjá
 Egyszerre több fájl is megnyitható, de csak az első írható. A többi fájlt megpróbálja ráilleszteni a jelenlegi fordításra, így ha például te olyan török fordító vagy, aki a német nyelvben jobban kiismeri magát, mint az angolban, akkor lehetőséged van látni a német fordítást is - természetesen abba nem piszkálhatsz. Képes a kifejezéstár alapján automata fordításra is, azonban az automata fordítónak gondot okoznak a hívóbetűk, így arra ügyelni kell, hogy a kifejezéstárban meglegyen a legtöbbször használt verzió.
 
 Meg kell jegyezni, hogy a Qt 3 és Qt 4 verziók Linguist programjai nem kompatibilisek egymással: a 4-es .ts fájljainak nem minden mezőjét ismeri a 3-as Linguist, illetve a 3-as lrelease által készített .qm fájlok nem működnek a Qt 4 programok binárisaival.
+-->
 
- - [Fordítási útmutató - Szabad szoftverek magyarításához](http://forditas.fsf.hu/html/Utmutato.html): Ezen dokumentum alapja, továbbfejlesztése (terveink szerint) ezen wikiben fog folyni.
- - [PO-fájlok helyesírás-ellenőrzése](http://forditas.fsf.hu/huspell-po.html)
- - [Fordítás HOGYAN](http://tldp.fsf.hu/Forditas-HOGYAN/Forditas-HOGYAN.html): a TLDP útmutatója
- - [Letölthető, többnyelvű Microsoft Glossary](http://www.microsoft.com/globaldev/tools/MILSGlossary.mspx) - utf-8-ra alakítás és a többi nyelv fordításainak törlése (táblázatkezelők kezelik) után egyszerűen grepelhető, hasznos ha valami nagyon ritka kifejezés esetleges megfelelőit keressük. Az átalakításhoz használható parancs: iconv -f utf-16 -t utf-8 msg.csv &gt; u8\_msg.csv
- - [Kereshető, szabadon hozzáférhető, online Microsoft Glossary](http://www.microsoft.com/language/en/us/search.mspx)
- - [Kereshető, nyílt forrású szoftverek fordításait tartalmazó adatbázis](http://open-tran.eu/)
- - [A magyar helyesírás szabályai (Magyar Elektronikus Könyvtár - MEK-01547)](http://mek.oszk.hu/01500/01547/index.phtml)
- magyar helyesírás szabályai (Magyar Elektronikus Könyvtár - MEK-01547)](http://mek.oszk.hu/01500/01547/index.phtml)
-ot jelent (ami ugye szintén egy C++ osztály :-) ).
+# Források és további információk
 
-Jobbra található az az osztott panel, melynek felső harmadának bal oldalán a fordítási egységek vannak, jobbra pedig az adott form, vagy a szöveg forrásbeli környezete. Ugyanezen panel középső harmadában történik a lényegi fordítás, illetve itt lehet megtekinteni a fejlesztő kommentjét az adott szöveghez; ezen felül lehetőség nyílik fordítói kommentek beszúrására is, az erre szolgáló mezőben.
-
-Az alsó harmad bal oldalán a kifejezéstár és a megnyitott fájl(ok) alapján kalkulált javaslatok találhatók, míg jobboldalt az aktuális fordítási egység problémáit listázza a program (kimaradó hívóbetű, hiányzó placeholder, etc.).
-
-Egyszerre több fájl is megnyitható, de csak az első írható. A többi fájlt megpróbálja ráilleszteni a jelenlegi fordításra, így ha például te olyan török fordító vagy, aki a német nyelvben jobban kiismeri magát, mint az angolban, akkor lehetőséged van látni a német fordítást is - természetesen abba nem piszkálhatsz. Képes a kifejezéstár alapján automata fordításra is, azonban az automata fordítónak gondot okoznak a hívóbetűk, így arra ügyelni kell, hogy a kifejezéstárban meglegyen a legtöbbször használt verzió.
-
-Meg kell jegyezni, hogy a Qt 3 és Qt 4 verziók Linguist programjai nem kompatibilisek egymással: a 4-es .ts fájljainak nem minden mezőjét ismeri a 3-as Linguist, illetve a 3-as lrelease által készített .qm fájlok nem működnek a Qt 4 programok binárisaival.
 -   [Fordítási útmutató - Szabad szoftverek magyarításához](http://forditas.fsf.hu/html/Utmutato.html): Ezen dokumentum alapja, továbbfejlesztése (terveink szerint) ezen wikiben fog folyni.
 -   [PO-fájlok helyesírás-ellenőrzése](http://forditas.fsf.hu/huspell-po.html)
 -   [Fordítás HOGYAN](http://tldp.fsf.hu/Forditas-HOGYAN/Forditas-HOGYAN.html): a TLDP útmutatója
@@ -353,5 +339,3 @@ Meg kell jegyezni, hogy a Qt 3 és Qt 4 verziók Linguist programjai nem kompati
 -   [Kereshető, szabadon hozzáférhető, online Microsoft Glossary](http://www.microsoft.com/language/en/us/search.mspx)
 -   [Kereshető, nyílt forrású szoftverek fordításait tartalmazó adatbázis](http://open-tran.eu/)
 -   [A magyar helyesírás szabályai (Magyar Elektronikus Könyvtár - MEK-01547)](http://mek.oszk.hu/01500/01547/index.phtml)
- magyar helyesírás szabályai (Magyar Elektronikus Könyvtár - MEK-01547)](http://mek.oszk.hu/01500/01547/index.phtml)
-(http://mek.oszk.hu/01500/01547/index.phtml)01547/index.phtml)l)01547/index.phtml) -->

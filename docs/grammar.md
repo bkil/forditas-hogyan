@@ -84,13 +84,13 @@ Mindig újabb és újabb idegen szavak jelennek meg, melyeket fonetikusan megpr�
 
 ## Az /etc és társai
 
-Könyvtárak, fájlok neve előtt a névelőt úgy tegyük ki, hogy kiejtésben, illetve könyv olvasásakor szinte biztos, hogy az olvasó nem ejti ki képzeletben a „per” szócskát. Tehát:
+Könyvtárak, fájlok neve előtt a névelőt úgy tegyük ki, hogy kiejtésben, illetve könyv olvasásakor szinte biztos, hogy az olvasó nem ejti ki képzeletben a „per” szócskát. <!-- FIXME: Sokat ismerek aki igen - velük mi lesz? Én a zárójeles kiejtés nélkül nem is értettem volna az itteni névelőket. --> Tehát:
 
- - **_az /etc/lilo.conf_**
- - **_az /mnt_**
- - **_az /opt/gnome2/bin_**
- - **_az /sbin/ifconfig_**
- - **_a ~/.bashrc_**
+ - **_az /etc/lilo.conf_** („az etécé lilókonf”)
+ - **_az /mnt_** („az ementé”)
+ - **_az /opt/gnome2/bin_** („az opt gnómkettő bin”)
+ - **_az /sbin/ifconfig_** („az esbin íefkonfig”)
+ - **_a ~/.bashrc_** („a bashrc”)
 
 <!--Függő kérdés, hogy a(z) /usr milyen névelőt kapjon. A Unix-guruk fele szerint régen itt volt a felhasználók home-ja, így a név a „user” szó rövid alakja, és ezáltal júzer-nek ejtendő, míg másik felük szerint ez egy betűszó, a Unix System Resources rövidítése, vagyis ú-es-er a kiejtés.-->
 

@@ -24,6 +24,12 @@ A _%s_ és úgy általában, minden változó névelője **_a(z)_**. Két-vagy h
 
 Az angol eredetiben gyakran láthatók ehhez hasonló szerkezetek, például névjegy panelen vagy állapotjelzésként, mert az angol nem használ névelőt a tulajdonnevek előtt. Viszont magyarul tegyünk elé névelőt, például: „A Gaim egy többfunkciós csevegőkliens”.
 
+## „\_Ignore”
+
+~~K\_ihagy~~ helyett **_kihagyás_**, hasonlóan a kivágás, másolás, mentés, megnyitás, és társaihoz.
+
+Kivéve: **_alkalmaz_**, a szabály erősítése és a gombok szélességével való spórolás témája miatt.
+
 ## „Mondatközi Nagybetűk”
 
 Általános hiba, hogy ha egy mondaton belül több szó is nagybetűvel kezdődik, azt a magyarban is nagybetűvel kezdik. Ez helytelen.
