@@ -32,11 +32,11 @@ A programelemek ragozásánál – megállapodás szerint – a következő alak
 
 ***Monitor***nak, és nem képernyőnek hívjuk a hardvereszközt. A ***képernyő*** a monitor megfelelő részén világítva megjelenő kétdimenziós ábra.
 
-### <u>Mágneslemez</u>
+### ~~Mágneslemez~~
 
-Ne használjuk a ***hajlékonylemez**'' (***floppy**'') szinonimájaként, mert a merevlemezek is mágneses elven működnek, így azok is mágneslemezek. Ezt a szót tehát ne használjuk, mert inkább csak félreértést okozhat.
+Ne használjuk a **_hajlékonylemez_** (**_floppy_**) szinonimájaként, mert a merevlemezek is mágneses elven működnek, így azok is mágneslemezek. Ezt a szót tehát ne használjuk, mert inkább csak félreértést okozhat.
 
-### <u>Winchester</u>
+### ~~Winchester~~
 
 Ne használjuk a **_merevlemez_** vagy **_lemez_** szinonimájaként.
 

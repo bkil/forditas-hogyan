@@ -12,7 +12,7 @@ Ebben a részben olyan gyakori hibákat soroltunk fel, amelyeket a legtöbb kezd
 |technically|~~technikailag~~ helyett **_szigorúan véve_**|
 |tricky|~~trükkös~~ helyett **_nehéz_**, **_problémás_**|
 
-## "A %s-hez…"
+## „A %s-hez…”
 
 A _%s_ és úgy általában, minden változó névelője **_a(z)_**. Két-vagy háromalakú toldalékot pedig nem kap, ugyanezért: mert akármi állhat helyette, nem tudhatjuk, melyik kell. Az egyalakú toldalékok (-ig, -kor, stb.) elfogadhatók. A ragozás megkerülésére használt módszerek:
 
@@ -20,7 +20,7 @@ A _%s_ és úgy általában, minden változó névelője **_a(z)_**. Két-vagy h
  - ha nem tudjuk, vagy több dolog is lehet: „a következőhöz: %s”
  - ha kis helyre kell beszorítani, vagy egy beviteli mező előtt áll egy „to:” (vagy hasonló): „ehhez:”
 
-## "<programneve> is a…"
+## „<programneve> is a…”
 
 Az angol eredetiben gyakran láthatók ehhez hasonló szerkezetek, például névjegy panelen vagy állapotjelzésként, mert az angol nem használ névelőt a tulajdonnevek előtt. Viszont magyarul tegyünk elé névelőt, például: „A Gaim egy többfunkciós csevegőkliens”.
 
@@ -57,7 +57,7 @@ Ezt a szóközt általában azért érdemes meghagyni, mert lehet, hogy a progra
 
 ## Két karakterláncból álló mondatok
 
-Néha előfordul, hogy egy mondat két külön <code>msgid</code>-ben van leírva, a kettő között pedig általában valamilyen felületi elem például léptetőgomb áll. Ezt arról lehet felismerni, hogy egymás után két fél-mondat áll, amik „mintha” összetartoznának, és a megjegyzésben az előfordulási helyük csak néhány (&lt;10) sornyira van egymástól. Ilyenkor nem kell nagyon ragaszkodni külön-külön az eredeti karakterláncok értelméhez, elég, ha a két üzenet együtt adja vissza a teljes mondat értelmét. Például:
+Néha előfordul, hogy egy mondat két külön `msgid`-ben van leírva, a kettő között pedig általában valamilyen felületi elem például léptetőgomb áll. Ezt arról lehet felismerni, hogy egymás után két fél-mondat áll, amik „mintha” összetartoznának, és a megjegyzésben az előfordulási helyük csak néhány (&lt;10) sornyira van egymástól. Ilyenkor nem kell nagyon ragaszkodni külön-külön az eredeti karakterláncok értelméhez, elég, ha a két üzenet együtt adja vissza a teljes mondat értelmét. Például:
 
 ```python
 msgid "S_witch off after:"
@@ -83,17 +83,17 @@ A kétszavas összetételeket egybeírjuk. Például: **_menüikon_**, **_szinta
 
 ## Speciális helyeken lévő üzenetek
 
-Gyakran fordulnak elő olyan üzenetek, amelyek többféleképpen értelmezhetők/fordíthatók, attól függően, hogy hol vannak a programban, például ugyanaz a szöveg lehet egy parancssori kapcsoló, egy program vagy (GNOME esetén) egy GConf-kulcs leírása ugyanúgy, mint egy, a felhasználótól adatokat bekérő ablak címsora, így kezdő fordítók néha az előbbi három esetén is megszólítják a felhasználót, ami adott esetben szükségtelen. Ezeket arról lehet felismerni, hogy a főprogram első &lt;1000 sorában vannak (ez általában a programneve --help segítségével ellenőrizhető), vagy .desktop.in illetve <tt>.schemas.in</tt> fájlokban.
+Gyakran fordulnak elő olyan üzenetek, amelyek többféleképpen értelmezhetők/fordíthatók, attól függően, hogy hol vannak a programban, például ugyanaz a szöveg lehet egy parancssori kapcsoló, egy program vagy (GNOME esetén) egy GConf-kulcs leírása ugyanúgy, mint egy, a felhasználótól adatokat bekérő ablak címsora, így kezdő fordítók néha az előbbi három esetén is megszólítják a felhasználót, ami adott esetben szükségtelen. Ezeket arról lehet felismerni, hogy a főprogram első &lt;1000 sorában vannak (ez általában a programneve --help segítségével ellenőrizhető), vagy .desktop.in illetve `.schemas.in` fájlokban.
 
 Például, a „Specify a value” üzenet „Érték megadása”-ként fordítandó, ha a fenti három feltétel egyike teljesül, illetve „Adjon meg egy értéket”-ként, ha nem.
 
 ## CSUPANAGYBETŰS szavak
 
-Általában ezek a parancssori kapcsolók paramétereit jelölik, például: <code>--prefix PREFIX</code>. Parancssori kapcsolók esetén maga a kapcsoló nem fordítandó, a csupa nagybetűs szó viszont igen.
+Általában ezek a parancssori kapcsolók paramétereit jelölik, például: `--prefix PREFIX`. Parancssori kapcsolók esetén maga a kapcsoló nem fordítandó, a csupa nagybetűs szó viszont igen.
 
 ## DConf-kulcsok és -értékek
 
-Ez egy GNOME-specifikus dolog, a DConf konfigurációs adatbázisban gyakran fordul elő, hogy a kulcsok leírásai más kulcsok nevére hivatkoznak, illetve ha a kulcs értékének néhány karakterlánc típusú elem egyikének kell lennie, akkor ezeket leírással együtt felsorolják. Ezek <tt>.schemas.in</tt> fájlokban fordulnak elő, a szabály velük kapcsolatban az, hogy a kulcsneveket és -értékeket nem fordítjuk (a DConf ezt nem támogatja) és a lehetséges értékek mögé zárójelben odatesszük a fordítást, ha van értelme, például: „Az ablak elhelyezkedése. Lehetséges értékek: top (fent), bottom (lent)”. (Nyilván ha n darab kódlapból kell egyet választani, akkor nem.)
+Ez egy GNOME-specifikus dolog, a DConf konfigurációs adatbázisban gyakran fordul elő, hogy a kulcsok leírásai más kulcsok nevére hivatkoznak, illetve ha a kulcs értékének néhány karakterlánc típusú elem egyikének kell lennie, akkor ezeket leírással együtt felsorolják. Ezek `.schemas.in` fájlokban fordulnak elő, a szabály velük kapcsolatban az, hogy a kulcsneveket és -értékeket nem fordítjuk (a DConf ezt nem támogatja) és a lehetséges értékek mögé zárójelben odatesszük a fordítást, ha van értelme, például: „Az ablak elhelyezkedése. Lehetséges értékek: top (fent), bottom (lent)”. (Nyilván ha n darab kódlapból kell egyet választani, akkor nem.)
 
 ## Mondatvégi írásjelek
 

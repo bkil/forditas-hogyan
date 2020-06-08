@@ -1,6 +1,6 @@
 # Helyesírás
 
-A magyar helyesírás ismerete, fordítókról lévén szó, egyike a legalapvetőbb követelményeknek. A mindenre kiterjedő útmutatás nem is lehet ennek a rövid ismertetőn0ek a feladata, a legtöbb gondot okozó témakörökre mégis fel szeretnénk hívni a figyelmet, megemlítve a legfontosabb szabályokat. Bárminemű kétely esetén – és egyébként is – tudjuk ajánlani „[A magyar helyesírás szabályai](http://helyesiras.mta.hu/helyesiras/default/akh12)” című könyvet.
+A magyar helyesírás ismerete, fordítókról lévén szó, egyike a legalapvetőbb követelményeknek. A mindenre kiterjedő útmutatás nem is lehet ennek a rövid ismertetőnek a feladata, a legtöbb gondot okozó témakörökre mégis fel szeretnénk hívni a figyelmet, megemlítve a legfontosabb szabályokat. Bárminemű kétely esetén – és egyébként is – tudjuk ajánlani „[A magyar helyesírás szabályai](http://helyesiras.mta.hu/helyesiras/default/akh12)” című könyvet.
 
 ## Gyakori hibák
 
@@ -79,7 +79,7 @@ Az általános iskolában megtanították, hogy felszólító mondat végére fe
 
 Ez nem kérdő mondat. Nem kérdezzük meg a felhasználót, hogy telepítve van-e az xblast. Megkérjük őt, hogy ezt derítse ki. Ez tehát egy felszólító mondat, és ennek megfelelően pontot vagy felkiáltójelet teszünk a végére.
 
-A fenti mondat kérdőjellel is értelmes lehet, de nem könyvben vagy program fordításában. Ha ketten arról tanakodnak, hogy vajon egyáltalán megnézzék-e, hogy telepítve van-e a csomag, akkor hangozhat el egyikőjük szájából ez a mondat kérdő hangsúllyal (értsd: a „nézzük meg” tagmondat is kérdő hangsúlyú). Ilyenkor nem megkéri a másikat, hogy adják ki az „<code>rpm -q xblast</code>” vagy „<code>dpkg -s xblast</code>” parancsot, hanem megkérdezi tőle, hogy szerinte egyáltalán van-e értelme bepötyögni ezt a parancsot.
+A fenti mondat kérdőjellel is értelmes lehet, de nem könyvben vagy program fordításában. Ha ketten arról tanakodnak, hogy vajon egyáltalán megnézzék-e, hogy telepítve van-e a csomag, akkor hangozhat el egyikőjük szájából ez a mondat kérdő hangsúllyal (értsd: a „nézzük meg” tagmondat is kérdő hangsúlyú). Ilyenkor nem megkéri a másikat, hogy adják ki az `rpm -q xblast` vagy `dpkg -s xblast` parancsot, hanem megkérdezi tőle, hogy szerinte egyáltalán van-e értelme bepötyögni ezt a parancsot.
 
 #### Vízszintes vonal
 
