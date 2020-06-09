@@ -8,6 +8,7 @@ run:
                docs/expressions.md \
                docs/common-problems.md \
                docs/tools.md \
+               docs/references.md \
                --metadata title="Fordítás HOGYAN" \
                -s --toc --css pandoc.css \
                -f markdown-tex_math_dollars \
@@ -22,6 +23,7 @@ pdf:
                docs/expressions.md \
                docs/common-problems.md \
                docs/tools.md \
+               docs/references.md \
                --metadata title="Fordítás HOGYAN" \
                -s --toc --pdf-engine=xelatex \
                -V toc-title:"Tartalomjegyzék" \

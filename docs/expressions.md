@@ -54,5 +54,5 @@ Parancsot ***kiad***unk a gépnek, nem ~~beadunk~~ vagy ilyesmi. Esetleg begépe
 
 ### Kattintás, klikkelés
 
-A menü- és egyéb felületi elemek kiválasztani szoktuk, és nem rájuk kattintani vagy pláne nem rájuk ~~klikkelni~~ kell. Ezek a kifejezések abból a korból maradtak ránk, amikor jóformán az egér volt az egyetlen eszköz a kiválasztásukra, azóta azonban érintőképernyők és érintőtáblák, valamint akadálymentesítési szoftverek is rendelkezésre állnak, így kijelenthetjük hogy e kifejezések elavultak.
+A menü- és egyéb felületi elemeket kiválasztani szoktuk, és nem rájuk kattintani vagy pláne nem rájuk ~~klikkelni~~ kell. Ezek a kifejezések abból a korból maradtak ránk, amikor jóformán az egér volt az egyetlen eszköz a kiválasztásukra, azóta azonban érintőképernyők és érintőtáblák, valamint akadálymentesítési szoftverek is rendelkezésre állnak, így kijelenthetjük hogy e kifejezések elavultak.
 

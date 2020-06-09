@@ -24,13 +24,19 @@ A _%s_ és úgy általában, minden változó névelője **_a(z)_**. Két-vagy h
 
 Az angol eredetiben gyakran láthatók ehhez hasonló szerkezetek, például névjegy panelen vagy állapotjelzésként, mert az angol nem használ névelőt a tulajdonnevek előtt. Viszont magyarul tegyünk elé névelőt, például: „A Gaim egy többfunkciós csevegőkliens”.
 
+## „\_Ignore”
+
+~~K\_ihagy~~ helyett **_kihagyás_**, hasonlóan a kivágás, másolás, mentés, megnyitás, és társaihoz.
+
+Kivéve: **_alkalmaz_**, a szabály erősítése és a gombok szélességével való spórolás témája miatt.
+
 ## „Mondatközi Nagybetűk”
 
 Általános hiba, hogy ha egy mondaton belül több szó is nagybetűvel kezdődik, azt a magyarban is nagybetűvel kezdik. Ez helytelen.
 
 ## Gyorsbillenty\_ű ékezet előtt
 
-Lehetőleg ne használjuk. Nem feltételezhetjük ugyanis, hogy mindenki, aki magyarul akarja a grafikus felületű alkalmazásokat használni, rendelkezik magyar billentyűzettel vagy magyar kiosztást használ.
+Lehetőleg ne használjuk. Nem feltételezhetjük ugyanis, hogy mindenki, aki magyarul akarja a grafikus felületű alkalmazást használni, rendelkezik magyar billentyűzettel, illetve magyar kiosztást használ.
 
 ## Gyorsbillentyűk ütközése
 
@@ -46,7 +52,7 @@ Ha ilyen van az angol eredetiben, akkor a magyarban nem vesszük át. (Lásd: Fr
 
 ## Szóköz karakterláncok végén
 
-Az előbbihez hasonló jelenség amikor karakterlánc végén is áll egy szóköz, például:
+Az előbbihez hasonló jelenség amikor a karakterlánc végén is áll egy szóköz, például:
 
 ```python
 msgid "Options "
@@ -71,9 +77,9 @@ Ez a programban valahogy így néz ki: Kika\_pcsolás: &lt;10&gt; perc után
 
 Az ilyen karakterláncokat is érdemes hibaként bejelenteni.
 
-## Nem elérhető, nem kikereshető, nem feldolgozható, nem visszaváltható
+## Nem elérhető, nem kikereshető, nem feldolgozható, nem visszavonható
 
-Gyakran látni ezekhez hasonló helytelen szerkezeteket kezdő fordítók munkáiban. Ezeket **_nem érhető el_**, **_nem kereshető ki_**, **_nem dolgozható fel_** és **_nem váltható vissza_** alakban kell helyesen írni.
+Gyakran látni ezekhez hasonló helytelen szerkezeteket kezdő fordítók munkáiban. Ezeket **_nem érhető el_**, **_nem kereshető ki_**, **_nem dolgozható fel_** és **_nem vonható vissza_** alakban kell helyesen írni.
 
 ## 6:3
 
@@ -83,7 +89,7 @@ A kétszavas összetételeket egybeírjuk. Például: **_menüikon_**, **_szinta
 
 ## Speciális helyeken lévő üzenetek
 
-Gyakran fordulnak elő olyan üzenetek, amelyek többféleképpen értelmezhetők/fordíthatók, attól függően, hogy hol vannak a programban, például ugyanaz a szöveg lehet egy parancssori kapcsoló, egy program vagy (GNOME esetén) egy GConf-kulcs leírása ugyanúgy, mint egy, a felhasználótól adatokat bekérő ablak címsora, így kezdő fordítók néha az előbbi három esetén is megszólítják a felhasználót, ami adott esetben szükségtelen. Ezeket arról lehet felismerni, hogy a főprogram első &lt;1000 sorában vannak (ez általában a programneve --help segítségével ellenőrizhető), vagy .desktop.in illetve `.schemas.in` fájlokban.
+Gyakran fordulnak elő olyan üzenetek, amelyek többféleképpen értelmezhetők/fordíthatók, attól függően, hogy hol vannak a programban, például ugyanaz a szöveg lehet egy parancssori kapcsoló, egy program vagy (GNOME esetén) egy GConf-kulcs leírása ugyanúgy, mint egy, a felhasználótól adatokat bekérő ablak címsora, így kezdő fordítók néha az előbbi három esetén is megszólítják a felhasználót, ami adott esetben szükségtelen. Ezeket arról lehet felismerni, hogy a főprogram első &lt;1000 sorában vannak (ez általában a `programneve --help` segítségével ellenőrizhető), vagy `.desktop.in` illetve `.schemas.in` fájlokban.
 
 Például, a „Specify a value” üzenet „Érték megadása”-ként fordítandó, ha a fenti három feltétel egyike teljesül, illetve „Adjon meg egy értéket”-ként, ha nem.
 

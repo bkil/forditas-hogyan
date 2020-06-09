@@ -37,9 +37,9 @@ msgid "Typing Break"
 msgstr "Gépelési szünet"
 ```
 
-Látható, hogy az új karakterlánc három szava közül kettő azonos egy meglévő fordítás eredetijével, így a gettext feltételezi, hogy valószínűleg a fordításuk is hasonló lehet. Az egész értelme, hogy így az új karakterlánc fordítása gyorsabban készülhet el, hiszen csak egy szót ("bővítmény") kell a meglévő rész végére írni. Hosszabb karakterláncek esetén ugyan kevésbé pontosak, mondhatni használhatatlanok a találatok, de ha egy bekezdésnyi karakterláncben csak egy typot javítanak, akkor kifejezetten pontos és hasznos tud lenni :).
+Látható, hogy az új karakterlánc három szava közül kettő azonos egy meglévő fordítás eredetijével, így a gettext feltételezi, hogy valószínűleg a fordításuk is hasonló lehet. Az egész értelme, hogy így az új karakterlánc fordítása gyorsabban készülhet el, hiszen csak egy szót ("bővítmény") kell a meglévő rész végére írni. Hosszabb karakterláncok esetén ugyan kevésbé pontosak, mondhatni használhatatlanok a találatok, de ha egy bekezdésnyi karakterláncban csak egy elgépelést javítanak, akkor kifejezetten pontos és hasznos tud lenni :).
 
-Ebből következik, hogy fordításkor a lefordítatlan karakterláncekkel együtt ezeket is ugyanúgy le kell fordítani, amit ez a szolgáltatás néha meggyorsít, de semmiképpen sem helyettesít!
+Ebből következik, hogy fordításkor a lefordítatlan karakterláncokkal együtt ezeket is ugyanúgy le kell fordítani, amit ez a szolgáltatás néha meggyorsít, de semmiképpen sem helyettesít!
 
 Meg kell még említeni az elavult üzeneteket is, amelyek a negyedik állapotfajtát jelentik. Ezek mindig a fájl legvégén találhatók és valahogy így néznek ki:
 
@@ -225,7 +225,7 @@ A program általános működésével kapcsolatos beállítások végezhetők it
 
 Az Általános fülön kapcsoljuk be az alábbi ellenőrzéseket:
 
- - A címkék ellenőrzése: ez ellenőrzi a lefordított szövegben található HTML-címkékmennyiségét, illetve a kezdő-záró párokat.
+ - A címkék ellenőrzése: ez ellenőrzi a lefordított szövegben található HTML-címkék mennyiségét, illetve a kezdő-záró párokat.
  - A gyorsbillentyűk ellenőrzése: ellenőrzi, hogy a gyorsbillentyű szerepel-e a lefordított szövegben.
  - Az argumentumok ellenőrzése: az argumentumok meglétét és sorrendjét ellenőrzi.
 
@@ -251,13 +251,13 @@ Itt egyetlen fájlt adhatunk csak meg, ebben keresi az aktuálissal egyező kara
 
 ### Összefoglaló fájl
 
-Ez egy adott projekt, például a [KDE](KDE "wikilink") adott nyelvre fordított összes karakterláncjének összeláncolásával létrejövő fájlban való keresést tesz lehetővé. Gyorsan kereshetünk vele az adott projekt által lefordított összes karakterlánc között, a megadott feltételek szerint. A KDE magyar nyelvű összefoglaló fájljai a <http://i18n.kde.org/teams/infos.php?teamcode=hu> KDE Localization - Information about Hungarian Team \[hu\]\] címről tölthetők le (az alapértelmezés hibás a 3.4.x és korábbi KBabelben). A [GNOME](GNOME "wikilink") egyelőre nem biztosít ilyet. Más projektek: [FIXME](FIXME "wikilink").
+Ez egy adott projekt, például a [KDE](KDE "wikilink") adott nyelvre fordított összes karakterláncának összeláncolásával létrejövő fájlban való keresést tesz lehetővé. Gyorsan kereshetünk vele az adott projekt által lefordított összes karakterlánc között, a megadott feltételek szerint. A KDE magyar nyelvű összefoglaló fájljai a <http://i18n.kde.org/teams/infos.php?teamcode=hu> KDE Localization - Information about Hungarian Team \[hu\]\] címről tölthetők le (az alapértelmezés hibás a 3.4.x és korábbi KBabelben). A [GNOME](GNOME "wikilink") egyelőre nem biztosít ilyet. Más projektek: [FIXME](FIXME "wikilink").
 
 A keresés beállításai közül érdemes a "tartalmazza a szöveg egy szavát" lehetőséget kihagyni, ugyanis ez rendkívül hosszú keresési időt eredményezhet még kis fájloknál is. Összefoglaló fájlként használhatunk egy terminológiai szótárat is, például a [<http://l10n-status.gnome.org/HEAD/PO/gnome-glossary.HEAD.hu.po>](http://l10n-status.gnome.org/HEAD/PO/gnome-glossary.HEAD.hu.po) címen elérhető gnome-glossaryt, ez a projekt által gyakran használt szavakat gyűjti össze, ez egy egységes terminológia kialakítását célozza.
 
 ### Fordítási adatbázis
 
-A leghasznosabb mind közül. Egy adatbázisba gyűjthetünk tetszőleges projektekből származó po-fájlokat, majd ebben kereshetünk. Feltöltéséhez először is be kell szerezni néhány po-fájlt: a kde projekttől az összefoglaló fájlnál megadott címről letölthető hu.messages elégséges, azonban a po & docs archive a dokumentációkat is tartalmazza, valamint a redundáns eredeti karakterláncek is megtalálhatóak, amelyek esetleg eltérő fordítással rendelkeznek.
+A leghasznosabb mind közül. Egy adatbázisba gyűjthetünk tetszőleges projektekből származó po-fájlokat, majd ebben kereshetünk. Feltöltéséhez először is be kell szerezni néhány po-fájlt: a kde projekttől az összefoglaló fájlnál megadott címről letölthető hu.messages elégséges, azonban a po & docs archive a dokumentációkat is tartalmazza, valamint a redundáns eredeti karakterláncok is megtalálhatóak, amelyek esetleg eltérő fordítással rendelkeznek.
 
 GNOME: az alábbi branchból beszerezhető gmirr.sh szkripttel:
 
@@ -328,30 +328,4 @@ Az alsó harmad bal oldalán a kifejezéstár és a megnyitott fájl(ok) alapjá
 Egyszerre több fájl is megnyitható, de csak az első írható. A többi fájlt megpróbálja ráilleszteni a jelenlegi fordításra, így ha például te olyan török fordító vagy, aki a német nyelvben jobban kiismeri magát, mint az angolban, akkor lehetőséged van látni a német fordítást is - természetesen abba nem piszkálhatsz. Képes a kifejezéstár alapján automata fordításra is, azonban az automata fordítónak gondot okoznak a hívóbetűk, így arra ügyelni kell, hogy a kifejezéstárban meglegyen a legtöbbször használt verzió.
 
 Meg kell jegyezni, hogy a Qt 3 és Qt 4 verziók Linguist programjai nem kompatibilisek egymással: a 4-es .ts fájljainak nem minden mezőjét ismeri a 3-as Linguist, illetve a 3-as lrelease által készített .qm fájlok nem működnek a Qt 4 programok binárisaival.
-
- - [Fordítási útmutató - Szabad szoftverek magyarításához](http://forditas.fsf.hu/html/Utmutato.html): Ezen dokumentum alapja, továbbfejlesztése (terveink szerint) ezen wikiben fog folyni.
- - [PO-fájlok helyesírás-ellenőrzése](http://forditas.fsf.hu/huspell-po.html)
- - [Fordítás HOGYAN](http://tldp.fsf.hu/Forditas-HOGYAN/Forditas-HOGYAN.html): a TLDP útmutatója
- - [Letölthető, többnyelvű Microsoft Glossary](http://www.microsoft.com/globaldev/tools/MILSGlossary.mspx) - utf-8-ra alakítás és a többi nyelv fordításainak törlése (táblázatkezelők kezelik) után egyszerűen grepelhető, hasznos ha valami nagyon ritka kifejezés esetleges megfelelőit keressük. Az átalakításhoz használható parancs: iconv -f utf-16 -t utf-8 msg.csv &gt; u8\_msg.csv
- - [Kereshető, szabadon hozzáférhető, online Microsoft Glossary](http://www.microsoft.com/language/en/us/search.mspx)
- - [Kereshető, nyílt forrású szoftverek fordításait tartalmazó adatbázis](http://open-tran.eu/)
- - [A magyar helyesírás szabályai (Magyar Elektronikus Könyvtár - MEK-01547)](http://mek.oszk.hu/01500/01547/index.phtml)
- magyar helyesírás szabályai (Magyar Elektronikus Könyvtár - MEK-01547)](http://mek.oszk.hu/01500/01547/index.phtml)
-ot jelent (ami ugye szintén egy C++ osztály :-) ).
-
-Jobbra található az az osztott panel, melynek felső harmadának bal oldalán a fordítási egységek vannak, jobbra pedig az adott form, vagy a szöveg forrásbeli környezete. Ugyanezen panel középső harmadában történik a lényegi fordítás, illetve itt lehet megtekinteni a fejlesztő kommentjét az adott szöveghez; ezen felül lehetőség nyílik fordítói kommentek beszúrására is, az erre szolgáló mezőben.
-
-Az alsó harmad bal oldalán a kifejezéstár és a megnyitott fájl(ok) alapján kalkulált javaslatok találhatók, míg jobboldalt az aktuális fordítási egység problémáit listázza a program (kimaradó hívóbetű, hiányzó placeholder, etc.).
-
-Egyszerre több fájl is megnyitható, de csak az első írható. A többi fájlt megpróbálja ráilleszteni a jelenlegi fordításra, így ha például te olyan török fordító vagy, aki a német nyelvben jobban kiismeri magát, mint az angolban, akkor lehetőséged van látni a német fordítást is - természetesen abba nem piszkálhatsz. Képes a kifejezéstár alapján automata fordításra is, azonban az automata fordítónak gondot okoznak a hívóbetűk, így arra ügyelni kell, hogy a kifejezéstárban meglegyen a legtöbbször használt verzió.
-
-Meg kell jegyezni, hogy a Qt 3 és Qt 4 verziók Linguist programjai nem kompatibilisek egymással: a 4-es .ts fájljainak nem minden mezőjét ismeri a 3-as Linguist, illetve a 3-as lrelease által készített .qm fájlok nem működnek a Qt 4 programok binárisaival.
--   [Fordítási útmutató - Szabad szoftverek magyarításához](http://forditas.fsf.hu/html/Utmutato.html): Ezen dokumentum alapja, továbbfejlesztése (terveink szerint) ezen wikiben fog folyni.
--   [PO-fájlok helyesírás-ellenőrzése](http://forditas.fsf.hu/huspell-po.html)
--   [Fordítás HOGYAN](http://tldp.fsf.hu/Forditas-HOGYAN/Forditas-HOGYAN.html): a TLDP útmutatója
--   [Letölthető, többnyelvű Microsoft Glossary](http://www.microsoft.com/globaldev/tools/MILSGlossary.mspx) - utf-8-ra alakítás és a többi nyelv fordításainak törlése (táblázatkezelők kezelik) után egyszerűen grepelhető, hasznos ha valami nagyon ritka kifejezés esetleges megfelelőit keressük. Az átalakításhoz használható parancs: iconv -f utf-16 -t utf-8 msg.csv &gt; u8\_msg.csv
--   [Kereshető, szabadon hozzáférhető, online Microsoft Glossary](http://www.microsoft.com/language/en/us/search.mspx)
--   [Kereshető, nyílt forrású szoftverek fordításait tartalmazó adatbázis](http://open-tran.eu/)
--   [A magyar helyesírás szabályai (Magyar Elektronikus Könyvtár - MEK-01547)](http://mek.oszk.hu/01500/01547/index.phtml)
- magyar helyesírás szabályai (Magyar Elektronikus Könyvtár - MEK-01547)](http://mek.oszk.hu/01500/01547/index.phtml)
-(http://mek.oszk.hu/01500/01547/index.phtml)01547/index.phtml)l)01547/index.phtml) -->
+-->

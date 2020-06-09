@@ -6,14 +6,14 @@ A magyar helyesírás ismerete, fordítókról lévén szó, egyike a legalapvet
 
 ### Teljes hasonulás
 
-Ha egyszer azt mondjuk, hogy _egy_ és hogy _eggyel_, akkor a kettő különbsége az, hogy „_gyel_”, tehát a leírt alak **_1-gyel_**. Ha azt mondjuk, hogy „_necckép_” és „_neccképpel_”, akkor a kettő különbsége „_pel_”, tehát a helyes leírt alak **_Netscape-pel_** lesz. Ha azt mondjuk, hogy _százalék_ és _százalékkal_, akkor a kettő különbsége „_kal_”, vagyis a leírt alak **_%-kal_** lesz. A lényeg az, hogy a ragot mindig a szó kiejtett alakjához, és nem a leírthoz kell igazítani, figyelve a szimpla és dupla mássalhangzók kiejtésében is érezhető különbségre.
+Ha egyszer azt mondjuk, hogy _egy_ és hogy _eggyel_, akkor a kettő különbsége az, hogy „_-gyel_”, tehát a leírt alak **_1-gyel_**. Ha azt mondjuk, hogy „_necckép_” és „_neccképpel_”, akkor a kettő különbsége „_-pel_”, tehát a helyes leírt alak **_Netscape-pel_** lesz. Ha azt mondjuk, hogy _százalék_ és _százalékkal_, akkor a kettő különbsége „_-kal_”, vagyis a leírt alak **_%-kal_** lesz. A lényeg az, hogy a ragot mindig a szó kiejtett alakjához, és nem a leírthoz kell igazítani, figyelve a szimpla és dupla mássalhangzók kiejtésében is érezhető különbségre.
 
 A _-val/-vel_, valamint a _-vá/-vé_ rag _v_ betűje, amennyiben a szótő kiejtése mássalhangzóra végződik, a kiejtett (és nem a leírt) záró mássalhangzóhoz hasonul. Lássunk példákat a helyes használatra:
 
- - **_1-gyel_**, **_2-vel_**, **_3-mal_**, **_4-gyel_**, **_5-tel_**, **_10-zel_**, **_20-szal_**, **_30-cal_**, **_100-zal_**, **_1000-rel_**, …
- - **_Linuxszal_**, **_Windowszal_**, **_YaST-tal_**, **_Netscape-pel_**, **_Internet Explorerrel_**, **_Oracle-lel_**, **_Macintoshsal_**, **_X-szel_**, **_GNOME-mal_**, **_LibreOffice-szal_**, stb.
- - **_%-kal_** (százalékkal), **_\@-cal_** (kukaccal), stb.
- - **_n-nel_**, **_2<sup>n</sup>-nel_** (kettő az n-edikennel), **_n<sup>3</sup>-nal_** (n a harmadikonnal) vagy **_n<sup>3</sup>-nel_** (n a köbönnel) vagy **_n<sup>3</sup>-bel_** (n köbbel), esetleg **_n<sup>3</sup>-mal_** (n ad hárommal), de mindenképpen az egyik lehetséges kiejtéshez kell a ragot igazítanunk
+ - **_1-gyel_**, **_2-vel_**, **_3-mal_**, **_4-gyel_**, **_5-tel_**, **_10-zel_**, **_20-szal_**, **_30-cal_**, **_100-zal_**, **_1000-rel_**, …
+ - **_Linuxszal_**, **_Windowszal_**, **_YaST-tal_**, **_Netscape-pel_**, **_Internet Explorerrel_**, **_Oracle-lel_**, **_Macintoshsal_**, **_X-szel_**, **_GNOME-mal_**, **_LibreOffice-szal_**, stb.
+ - **_%-kal_** (százalékkal), **_\@-cal_** (kukaccal), stb.
+ - **_n-nel_**, **_2<sup>n</sup>-nel_** (kettő az n-edikennel), **_n<sup>3</sup>-nal_** (n a harmadikonnal) vagy **_n<sup>3</sup>-nel_** (n a köbönnel) vagy **_n<sup>3</sup>-bel_** (n köbbel), esetleg **_n<sup>3</sup>-mal_** (n ad hárommal), de mindenképpen az egyik lehetséges kiejtéshez kell a ragot igazítanunk
 
 Sok esetben nem egyértelmű, hogy milyen hangzóra is végződik az angol szó kiejtése. Az írásban _s_-re végződő angol szavak kiejtése általában _z_ hanggal végződik (pl. _Windows_), de vannak szavak, melyek kiejtése _sz_-szel zárul (pl. _case_). Nem egyértelmű az sem, hogy például az _Apple_ kiejtése _l_ vagy _ö_ hangra, a _delay_ kiejtése _é_ vagy _j_ hangra végződik stb. Ilyenkor törekedjünk a kerülő megfogalmazásra, hogy a kérdéses szó ne kapjon ragot (például <u>delay-jel</u> helyett **_delay kapcsolóval_**, <u>Apple-lel</u> helyett **_Apple számítógéppel_**).
 
@@ -59,11 +59,11 @@ Bizonyos esetekben nehézséget okozhat annak eldöntése, hogy a kötőszó azo
 
 Például:
 
-> <u>A cím kerül a számlálóba és az ehhez tartozó utasítás a regiszterbe.</u>
+> <u>A cím kerül a számlálóba és az ehhez tartozó utasítás a regiszterbe.</u>
 
 Ehelyett sokkal tisztább és gördülékenyebb megoldás a következő:
 
-> **_A cím kerül a számlálóba, az ehhez tartozó utasítás pedig [/meg] a regiszterbe._**
+> **_A cím kerül a számlálóba, az ehhez tartozó utasítás pedig [/meg] a regiszterbe._**
 
 Az *illetve* szó előtt mindig van vessző.
 
@@ -97,7 +97,7 @@ Használható:
 
 #### Nagykötőjel (**–**, &ndash;, félkvirtmínusz)
 
-Viszonylatok, *valamettől valameddig* viszonyt kifejező szókapcsolatok, intervallumok jelölésére: **Budapest–Hegyeshalom vasútvonal, Neumann u. 4–6., 0–50 km/h**.
+Viszonylatok, *valamettől valameddig* viszonyt kifejező szókapcsolatok, intervallumok jelölésére: **Budapest–Hegyeshalom vasútvonal, Neumann u. 4–6., 0–50 km/h**.
 
 Két vagy több nép, nyelv vagy tulajdonnév kapcsolatának kifejezése: **Angol–magyar kéziszótár**, **Andrásfai–Erdős–Freud-féle kiadvány**.
 
@@ -111,7 +111,7 @@ A gondolatjel formailag az elé és mögé tapadó szóközben tér el a nagykö
 
 Használható:
 
- - bizonyos mértékig elkülönülő gondolatsorok elválasztásához, a mondatvégi írásjelt követően;
+ - bizonyos mértékig elkülönülő gondolatsorok elválasztásához, a mondatvégi írásjelet követően;
  - közbevetés – melyet vesszőkkel vagy zárójelekkel is keretezhetünk – jelöléséhez;
  - idézetek, párbeszédek szedéséhez.
 
@@ -121,7 +121,7 @@ Negatív előjel és kivonás jelölésére használjuk. Elvileg illeszkedik az 
 
 ### Felsorolások helyesírása
 
-Ha a felsorolás egyes elemei önálló mondatot alkotnak, minden tagot nagybetűvel kezdünk, és minden tag végére pont kerül.
+Ha a felsorolás egyes elemei önálló mondatot alkotnak, minden tagot nagybetűvel kezdünk és ponttal zárunk.
 
 > Ha be szeretnénk zárni az ablakot, hajtsuk végre a következő műveleteket:
 > 
@@ -131,48 +131,48 @@ Ha a felsorolás egyes elemei önálló mondatot alkotnak, minden tagot nagybet�
 
 Ha a felsorolást bevezető mondat és a felsorolás elemei együtt alkotnak egy mondatot, akkor a felsorolás elemeit kisbetűvel kezdjük, a tagok végére pontosvessző kerül, a felsorolás utolsó tagját pedig pont zárja.
 
-> Az ablak bezárásához:
+> Az ablak bezárásához:
 > 
-> - fogjuk meg az egeret;
-> - vigyük a mutatót az OK gomb fölé;
-> - nyomjuk le az egér bal oldali gombját.
+> - fogjuk meg az egeret;
+> - vigyük a mutatót az OK gomb fölé;
+> - nyomjuk le az egér bal oldali gombját.
 
 Ha az elemek egyáltalán nem alkotnak mondatot, akkor a felsorolás tagjai nagybetűvel kezdődnek, de a végükre nem kerül írásjel.
 
-> Az ablak bezárásának kellékei:
+> Az ablak bezárásának kellékei:
 > 
-> - Egér
-> - Mutató
-> - Bal oldali gomb
+> - Egér
+> - Mutató
+> - Bal oldali gomb
 
 ### Pont a szám után
 
-A számmal írt sorszámnevek után minden esetben pont áll: **_3. osztály, 3.-os tanuló, XI. kerület_**. Különösen ügyelni kell erre a szabályra a lépéssorozatok számozásánál, itt ugyanis az angol általában nem teszi ki a pontot.
+A számmal írt sorszámnevek után minden esetben pont áll: **_3. osztály, 3.-os tanuló, XI. kerület_**. Különösen ügyelni kell erre a szabályra a lépéssorozatok számozásánál, itt ugyanis az angol általában nem teszi ki a pontot.
 
-Ugyanez érvényes a számmal írt dátum minden elemére is: **_1997. XI. 12._**
+Ugyanez érvényes a számmal írt dátum minden elemére is: **_1997. XI. 12._**
 
-Az évszámot követő pont elhagyandó, ha az évszámot:
+Az évszámot követő pont elhagyandó, ha:
 
- - névutó, vagy névutóból képzett melléknév követi; **_1848 előtt_**
- - kötőjellel kapcsolt toldalék követi; **_1849-ben_**, (ez napot jelölő számra is érvényes **_október 6-án_**)
- - az évszám egy birtokos szerkezet eleme; **_1969 nyara_**
+ - az évszámot névutó, vagy névutóból képzett melléknév követi; **_1848 előtt_**
+ - az évszámot kötőjellel kapcsolt toldalék követi; **_1849-ben_**, (ez napot jelölő számra is érvényes **_október 6-án_**)
+ - az évszám egy birtokos szerkezet eleme; **_1969 nyara_**
  - az évszám a mondat alanya. **_1991 a Linux születésének éve_**
 
 ### Idegen szavak helyesírása
 
-A programokban előforduló idegen szavak leírásával kapcsolatban, lévén vagy lefordítjuk, vagy eredeti alakjukban vesszük át őket, általában csak a toldalékolás jelent gondot. Erre nézve egy szabályt és egy ajánlást említenénk meg:
+A programokban előforduló idegen szavak leírásával kapcsolatban, lévén vagy lefordítjuk, vagy eredeti alakjukban vesszük át őket, általában csak a toldalékolás jelent gondot. Erre nézve a következő szabályt, illetve ajánlást említenénk meg.
 
 Ha az idegen írásmód szerint írt szó végén néma betű áll, illetve az utolsó kiejtett hangot a magyarban szokatlan betűcsoport jelöli, akkor a toldalékot kötőjellel kapcsoljuk a szóhoz:
 
-> **_Netscape-et, Netscape-pel, Office-t, joe-ban_** stb.
+> **_Netscape-et, Netscape-pel, Office-t, joe-ban_** stb.
 
 Egyéb esetekben a toldalék általában közvetlenül kötődik a szóhoz:
 
-> **_Linuxot_**, **_Linuxszal_**, **_Windowst_**, **_Windowszal_**, **_Windowsban_**, **_Macintoshsal_**, **_promptot_**, **_prompttal_**, **_Explorert_**, **_Midnight Commanderben_**, **_Emacsben_**, **_Emacsszel_**, **_floppyt_** stb.
+> **_Linuxot_**, **_Linuxszal_**, **_Windowst_**, **_Windowszal_**, **_Windowsban_**, **_Macintoshsal_**, **_promptot_**, **_prompttal_**, **_Explorert_**, **_Midnight Commanderben_**, **_Emacsben_**, **_Emacsszel_**, **_floppyt_** stb.
 
 Az idegen szavak ragozása időnként kényelmetlen, például mert nem ismert, illetve nem egyértelmű a kiejtésük. Nyugodtan használhatjuk a következő szerkezeteket:
 
-> **_Emacs szövegszerkesztőben_**, **_Windows operációs rendszerben_** stb.
+> **_Emacs szövegszerkesztőben_**, **_Windows operációs rendszerben_** stb.
 
 A számítástechnikai szövegekben igen sok angol betűszó (pl. TCP/IP) szerepel, és a tapasztalat szerint ezek ragozása sem mindig mentes a kétségektől. Két általános tanács adható:
 
@@ -197,11 +197,11 @@ A programok dokumentációjában helyenként nagyon sok szám van, és sajnos so
 
 A négyjegyű számokat (az angollal ellentétben) nem kell megtörni:
 
-> 9,600b/s (angol) → **_9600 b/s_** (magyar)
+> 9,600b/s (angol) → **_9600 b/s_** (magyar)
 
 Az öt és annál többjegyű számokat nem vesszővel, hanem szóközzel (mégpedig – ahol van rá lehetőség – kötött szóközzel) kell tagolni:
 
-> 14,000b/s (angol) → **_14 000 b/s_** (magyar)
+> 14,000b/s (angol) → **_14 000 b/s_** (magyar)
 
 _Megjegyzés: A tipográfialag helyes megoldás a nem törő spácium (félszóköz) használata, de ennek használatára ritkán van lehetőség._
 
@@ -213,11 +213,11 @@ A mellékneveket kisbetűvel írjuk, ily módon az egyszavas tulajdonnévből sz
 
 Ha a tulajdonnév két vagy több szóból áll, akkor viszont minden szavát nagybetűvel írjuk, és kötőjelet teszünk a képző elé:
 
-> **_UHU Linux-os, Windows NT-s_** stb.
+> **_UHU Linux-os, Windows NT-s_** stb.
 
 Az imént látott kötőjel csak képzőkre vonatkozik (melyek a szófajt melléknévre változtatják), egyszerű ragokra nem. Tehát
 
-> **_UHU Linuxot, UHU Linux-os_**.
+> **_UHU Linuxot, UHU Linux-os_**.
 
 ### Hangzóhosszabbodás
 
@@ -252,7 +252,7 @@ Különírjuk, ha az _a_ vagy _e_ egy (alanyra mutató) mutatószó, például:
 - **_A nélkül a füzet nélkül..._**
 - **_E helyett a darab helyett egy másikat játszanak._**
 
-Egybeírjuk, ha határozószó, vagyis ha az a vagy e nem értelmezhető mutatószóként, legfeljebb a másik tagmondat teljes egészére (azaz állítmányára) mutató mutatószóként (de ez már nyakatekert értelmezés). Ilyenkor hogy szokta követni a szót.
+Egybeírjuk, ha határozószó, vagyis ha az a vagy e nem értelmezhető mutatószóként, legfeljebb a másik tagmondat teljes egészére (azaz állítmányára) mutató mutatószóként (de ez már nyakatekert értelmezés). Ilyenkor „hogy” szokta követni a szót.
 
 * **_Hazament anélkül, hogy elköszönt volna._**
 
@@ -287,14 +287,14 @@ Egybeírjuk, ha határozószó, vagyis ha az a vagy e nem értelmezhető mutató
 | **_kiváló_** | Rövid i. |
 | **_kíván, kíváncsi_** | Hosszú í. |
 | **_kisbetű_** | Ha azt kell kifejezni, hogy abcde és nem ABCDE, akkor egy szó. Ha esetleg nagyítóval alig olvasható szövegről van szó, <small>Mint Ez Itt</small> (ami persze tartalmazhat kis- és és nagybetűket is), akkor ez a szöveg **_kis betűkkel_** van írva. |
-| **_l._** | =lásd. Nem ~~ld.~~ és nem is ~~lsd.~~. Lehetőleg inkább írd ki, hogy **_lásd_**. |
+| **_l._** | =lásd. Nem ~~ld.~~ és nem is ~~lsd.~~. Lehetőleg inkább írjuk ki, hogy **_lásd_**. |
 | **_licenc, licence, licencet, licenccel, licencel_** | Nem ~~licensz~~ és nem is ~~liszensz~~! (Az angol alak license, tehát például GPL = General Public License, ezt nem fordítjuk le magyarra.) A magyarba német közvetítéssel jutott. |
 | **_merevlemez_** | Egy szó. |
 | **_minél_** | Egy n. Minél több, annál jobb. |
 | **_muszáj_** | Pontos j, de egyébként se használjuk ezt a szót írott nyelvben. |
 | **_partíció_** | Hosszú í. |
 | **_particionál, particionálás_** | Rövid i. |
-| **_pl._** | = például. A végén van pont, hamarabb nincs. Nem ~~pld.~~. Lehetőleg inkább írd ki, hogy **_például_**. |
+| **_pl._** | = például. A végén van pont, hamarabb nincs. Nem ~~pld.~~. Lehetőleg inkább írjuk ki, hogy **_például_**. |
 | **_projekt_** | j és k betűkkel. |
 | **_protokoll_** | k, majd két l. |
 | **_robusztus_** | Középen u betűvel. |
@@ -307,6 +307,6 @@ Egybeírjuk, ha határozószó, vagyis ha az a vagy e nem értelmezhető mutató
 | **_ún._** | =úgynevezett. A végén van pont, de a közepén nincs. Hosszú ú. |
 | **_utána_** | Egy n. |
 | **_utolsó, utoljára_** | Rövid o. |
-| **_video- (videokártya, videomód, videomagnó, videokamera, video-CD)_** | szóösszetételben, illetve jelzőként rövid o. Egyedül az önálló szóként, videomagnó értelemben elterjedt **_videó_** szó van hosszú ó-val. |
+| **_video- (videokártya, videomód, videomagnó, videokamera, video-CD)_** | szóösszetételben, illetve jelzőként rövid o. Egyedül az önálló szóként, videomagnó vagy mozgókép-felvétel értelemben elterjedt **_videó_** szó van hosszú ó-val. |
 | **_vö._** | =vesd össze. A végén van pont, de a közepén nincs. |
 

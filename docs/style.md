@@ -25,12 +25,12 @@ Ne essünk át azonban a ló túlsó oldalára, a magyarítás soha ne menjen az
 
 ## Az olvasó megszólítása
 
-Alapvetően személytelen egyes harmadik személyű megszólítást használunk (például **_kattintson ide_**), ha mégis szükséges a felhasználó közvetlen megszólítása, akkor önözést használunk. A felhasználót nem tegezzük sem a felhasználói felületeken, sem a dokumentációkba.
+Alapvetően személytelen egyes szám harmadik személyű megszólítást használunk (például **_kattintson ide_**), ha mégis szükséges a felhasználó közvetlen megszólítása, akkor önözést használunk. A felhasználót nem tegezzük sem a felhasználói felületeken, sem a dokumentációkban.
 
-> **_Kattintson ide. Ekkor megjelenik egy ablak, mely közli, hogy…_**
-> **_Ha ezt meg ezt szeretné, kattintson ide. Ha ki akar lépni, nyomja le az Escape billentyűt…_**
+> **_Kattintson ide. Ekkor megjelenik egy ablak, mely közli, hogy…_**
+> **_Ha ezt meg ezt szeretné, kattintson ide. Ha ki akar lépni, nyomja le az Escape billentyűt…_**
 
-A személytelenségre törekvés nem csak az angolban igen gyakori birtokos szerkezetekre vonatkozik (például _your_ computer → a számítógép), hanem lehetőség szerint az igei szerkezetekben is a teljesen személytelen alakot kell választani (például „Then _you can set_ new options.” = „Ekkor új beállításokat is **_meg lehet adni_**.”).
+A személytelenségre törekvés nem csak az angolban igen gyakori birtokos szerkezetekre vonatkozik (például „_your_ computer” → a számítógép), hanem lehetőség szerint az igei szerkezetekben is a teljesen személytelen alakot kell választani (például „Then _you can set_ new options.” = „Ekkor új beállításokat is **_meg lehet adni_**.”).
 
 ## -ás, -és
 
