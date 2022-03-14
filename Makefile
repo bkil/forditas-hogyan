@@ -12,7 +12,7 @@ run:
                --metadata title="Fordítás HOGYAN" \
                -s --toc \
                --include-in-header=build/pandoc.html \
-               -f markdown-tex_math_dollars \
+               -f markdown-smart+ascii_identifiers+gfm_auto_identifiers \
                -o build/forditas-hogyan.html
 
 pdf:
@@ -30,6 +30,6 @@ pdf:
                -V toc-title:"Tartalomjegyzék" \
                -V mainfont:"Linux Libertine O" \
                -V geometry:"margin=1in" \
-               -f markdown-tex_math_dollars \
+               -f markdown-tex_math_dollars-smart+ascii_identifiers+gfm_auto_identifiers \
                -o build/forditas-hogyan.pdf
 
