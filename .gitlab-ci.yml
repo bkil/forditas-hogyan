@@ -1,0 +1,17 @@
+image: alpine:latest
+pages:
+  stage: deploy
+  before_script:
+  - apk update && apk add pandoc make brotli --repository=http://dl-cdn.alpinelinux.org/alpine/edge/testing/
+  script:
+  - make
+  - mkdir -p public
+  - mv build/forditas-hogyan.html public/index.html
+  - gzip -9 -f -k public/*.html
+  - brotli -f -k public/*.html
+  artifacts:
+    paths:
+    - public
+    expire_in: 1 day
+  only:
+  - master

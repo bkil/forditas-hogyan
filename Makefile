@@ -1,6 +1,6 @@
 run:
 	mkdir -p build
-	cp style/pandoc.css build/pandoc.css
+	{ echo "<link rel='shortcut icon' type=image/x-icon href=data:image/x-icon;,><style>"; cat style/pandoc.css; echo "</style>"; } > build/pandoc.html
 	pandoc docs/intro.md \
                docs/spelling.md \
                docs/grammar.md \
@@ -10,7 +10,8 @@ run:
                docs/tools.md \
                docs/references.md \
                --metadata title="Fordítás HOGYAN" \
-               -s --toc --css pandoc.css \
+               -s --toc \
+               --include-in-header=build/pandoc.html \
                -f markdown-tex_math_dollars \
                -o build/forditas-hogyan.html
 
