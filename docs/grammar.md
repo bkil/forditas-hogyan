@@ -82,7 +82,7 @@ Szerencsésebb azt mondani, hogy egy program „magyarul” szól a felhasznál�
 
 Mindig újabb és újabb idegen szavak jelennek meg, melyeket fonetikusan megpróbál valaki átírni. Óvakodjunk ezektől. Ha csak lehet, irtsuk az ~~imidzs~~ meg ehhez hasonló borzalmakat. Ezek a szavak még messze nem annyira részei nyelvünknek, hogy jogos legyen magyarul írni őket. Lehetőség szerint használjuk a magyar terminológiát (jelen konkrét példánál **_lemezkép_**), de ha nincs jó magyar szó, vagy az adott szövegkörnyezetben az angol terminológiát kell használni, akkor írjuk le az angolt változatlanul (például **_image_**). Megjegyzendő, hogy még a bájt alakot sem vette át a magyar helyesírás, a **_byte_** a helyes magyar írásmód a szótár szerint (a báj szó tárgyragos változata miatt fogadja el a Hunspell). Az ~~imidzs~~ láttán előre rettegek a ~~rútpásszvörd~~, ~~bútolás~~, ~~fréjmbáfför~~, ~~vizárd~~, ~~profájl~~, ~~pájp~~, ~~fléjmelés~~, ~~szájt~~, ~~fúbár~~ meg ehhez hasonló torzszülemények megjelenésétől.
 
-<!–- Véleményem szerint a ~~domén~~ (vagy akkor már miért nem ~~doméjn~~?) is ebbe a kategóriába tartozik, maradjunk a **_domain_** (de inkább **_tartomány_**) írásmódnál. -->
+<!--- Véleményem szerint a ~~domén~~ (vagy akkor már miért nem ~~doméjn~~?) is ebbe a kategóriába tartozik, maradjunk a **_domain_** (de inkább **_tartomány_**) írásmódnál. --->
 
 Ezzel szemben néhány közismert példa ahol a fonetikus átírás is elfogadható:
 
