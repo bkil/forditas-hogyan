@@ -3,3 +3,9 @@ table th,
 table td {
   border: 1px solid black;
 }
+
+table {
+  margin: 1em auto;
+  width: auto;
+  display: table;
+}
