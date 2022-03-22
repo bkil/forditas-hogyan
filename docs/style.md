@@ -63,11 +63,24 @@ Itt hívjuk fel a figyelmet arra, hogy a _műveletek lépéseinél_ magyarul is 
 
 ## Speciális karakterek
 
+Mindig a tipográfiailag helyes szimbólumok használatára törekedjünk.
+A LibreOffice Lightproof beállításai között ezek közül többre is elérhető szabály.
+Ezek egy részére másik fejezetben részletesebben is kitérünk.
+Néhány példa:
+
 |mellőzendő karakter|használandó karakter|használat|
-|-|-|
-|...|…|Három pont|
-|""|„”|Idézőjel|
-|--|–|Nagykötőjel|
+|-|-|-|
+|`...`|…|Három pont|
+|`""`|„”|Idézőjel|
+|`-`, `--`|-, –, −|diviz, félkvirtmínusz, mínuszjel|
+|`N'N`|N’N|módosító aposztróf|
+|`60'`|60′|felső vessző, variáns, percmérték|
+|`<< xy >>`|« xy »|belső idézet|
+|`1/2`|½|törtek|
+|`ae`|æ|ligatúrák|
+|`(C)`|©️|szerzői jogi oltalom|
+|`(R)`|®️|bejegyzett védjegy|
+|`(TM)`|™️|védjegy|
 
 ## Pongyola stílus
 
