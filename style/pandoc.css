@@ -1,3 +1,20 @@
+html {
+  font-family: sans-serif;
+  font-size: 16pt;
+}
+
+code {
+  font-family: monospace;
+}
+
+a {
+  color: #900100;
+}
+
+a:visited {
+  color: purple;
+}
+
 table,
 table th,
 table td {
