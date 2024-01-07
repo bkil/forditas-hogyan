@@ -26,10 +26,7 @@ pdf:
                docs/tools.md \
                docs/references.md \
                --metadata title="Fordítás HOGYAN" \
-               -s --toc --pdf-engine=xelatex \
-               -V toc-title:"Tartalomjegyzék" \
-               -V mainfont:"Linux Libertine O" \
-               -V geometry:"margin=1in" \
+               -s --pdf-engine=xelatex \
                -f markdown-tex_math_dollars-smart+ascii_identifiers+gfm_auto_identifiers \
                -o build/forditas-hogyan.pdf
 

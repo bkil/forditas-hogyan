@@ -6,15 +6,15 @@ Ebben a részben olyan gyakori hibákat soroltunk fel, amelyeket a legtöbb kezd
 
 |angol|magyar|
 |-|-|
-|virtually|~~virtuálisan~~ helyett **_gyakorlatilag_**|
-|specific|~~speciális~~ helyett **_különleges_**, **_jellemző_** |
-|powerful|~~erőteljes~~ helyett **_hatékony_**|
-|technically|~~technikailag~~ helyett **_szigorúan véve_**|
-|tricky|~~trükkös~~ helyett **_nehéz_**, **_problémás_**|
+|virtually|~~virtuálisan~~ helyett **gyakorlatilag**|
+|specific|~~speciális~~ helyett **különleges**, **jellemző** |
+|powerful|~~erőteljes~~ helyett **hatékony**|
+|technically|~~technikailag~~ helyett **szigorúan véve**|
+|tricky|~~trükkös~~ helyett **nehéz**, **problémás**|
 
 ## „A %s-hez…”
 
-A _%s_ és úgy általában, minden változó névelője **_a(z)_**. Két-vagy háromalakú toldalékot pedig nem kap, ugyanezért: mert akármi állhat helyette, nem tudhatjuk, melyik kell. Az egyalakú toldalékok (-ig, -kor, stb.) elfogadhatók. A ragozás megkerülésére használt módszerek:
+A _%s_ és úgy általában, minden változó névelője **a(z)**. Két-vagy háromalakú toldalékot pedig nem kap, ugyanezért: mert akármi állhat helyette, nem tudhatjuk, melyik kell. Az egyalakú toldalékok (-ig, -kor, stb.) elfogadhatók. A ragozás megkerülésére használt módszerek:
 
  - ha tudjuk, hogy micsoda a %s (fájl, könyvtár): „a(z) %s \[ fájlhoz | könyvtárhoz \]”
  - ha nem tudjuk, vagy több dolog is lehet: „a következőhöz: %s”
@@ -26,9 +26,9 @@ Az angol eredetiben gyakran láthatók ehhez hasonló szerkezetek, például né
 
 ## „\_Ignore”
 
-~~K\_ihagy~~ helyett **_kihagyás_**, hasonlóan a kivágás, másolás, mentés, megnyitás, és társaihoz.
+~~K\_ihagy~~ helyett **kihagyás**, hasonlóan a kivágás, másolás, mentés, megnyitás, és társaihoz.
 
-Kivéve: **_alkalmaz_**, a szabály erősítése és a gombok szélességével való spórolás témája miatt.
+Kivéve: **alkalmaz**, a szabály erősítése és a gombok szélességével való spórolás témája miatt.
 
 ## „Mondatközi Nagybetűk”
 
@@ -79,13 +79,13 @@ Az ilyen karakterláncokat is érdemes hibaként bejelenteni.
 
 ## Nem elérhető, nem kikereshető, nem feldolgozható, nem visszavonható
 
-Gyakran látni ezekhez hasonló helytelen szerkezeteket kezdő fordítók munkáiban. Ezeket **_nem érhető el_**, **_nem kereshető ki_**, **_nem dolgozható fel_** és **_nem vonható vissza_** alakban kell helyesen írni.
+Gyakran látni ezekhez hasonló helytelen szerkezeteket kezdő fordítók munkáiban. Ezeket **nem érhető el**, **nem kereshető ki**, **nem dolgozható fel** és **nem vonható vissza** alakban kell helyesen írni.
 
 ## 6:3
 
 A rövidítés azt jelenti, hogy a három vagy több szóból és hat vagy több szótagból (egy szótagú igekötők és toldalékok nélkül) álló szóösszetételeket a fő összetételi határon kötőjellel kapcsoljuk össze, az olvashatóság megkönnyítése érdekében.
 
-A kétszavas összetételeket egybeírjuk. Például: **_menüikon_**, **_szintaxiskiemelés_**, **_sortörés_**. Az eredetiben ezek általában külön állnak, de ez ne tévesszen meg.
+A kétszavas összetételeket egybeírjuk. Például: **menüikon**, **szintaxiskiemelés**, **sortörés**. Az eredetiben ezek általában külön állnak, de ez ne tévesszen meg.
 
 ## Speciális helyeken lévő üzenetek
 

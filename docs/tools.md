@@ -23,8 +23,8 @@ Egy üzenetnek három állapota lehet: lefordítatlan (az msgstr üres), leford�
 A fuzzy állapotról részletesebben: Technikailag ez úgy néz ki, mint egy lefordított üzenet, azzal a különbséggel, hogy az msgstr sort egy "\#, fuzzy" megjegyzés előzi meg, ennek beírásával illetve törlésével lehet a lefordított üzenetet fuzzy-vá alakítani és vissza. Példa egy fuzzy karakterláncra:
 
 ```python
-\#: ../plugins/typing-break/typing-break.gnome-settings-plugin.in.h:2
-\#, fuzzy
+#: ../plugins/typing-break/typing-break.gnome-settings-plugin.in.h:2
+#, fuzzy
 msgid "Typing break plugin"
 msgstr "Gépelési szünet"
 ```
@@ -67,9 +67,9 @@ Magyarul a 0 indexű fordítás tartalmazza az egyes- és az 1 indexű a többes
 "Plural-Forms: nplurals=2; plural=(n != 1);\\n"
 ```
 
-sort (így, idézőjelben). Ugyananez a fordításhoz használt programból is elvégezhető, a többes számú forma beállításánál így kell megadni:
+sort (így, idézőjelben). Ugyanez a fordításhoz használt programból is elvégezhető, a többes számú forma beállításánál így kell megadni:
 
-```
+```python
 nplurals=2; plural=(n != 1);
 ```
 
@@ -104,14 +104,7 @@ msgid "%d %s %d %s (%d%%) remaining"
 msgstr "%d %s %d %s (%d%%) van hátra"
 ```
 
-<!-- FIXME: ez így itt a Python esetén nem pontos, át lehet rendezni minden fejlesztői segítség nélkül -->
-
-Python esetén ez így nem működik, helyette el lehet nevezni a változókat, majd ezek sorrendje módosítható. Ezen módszer hátránya, hogy a változók elnevezését a fejlesztőtől kell kérni. Példa:
-
-```python
-msgid "Must be between %(min)s and %(max)s"
-msgstr "%(max)s és %(min)s között kell lennie" // Ennek most kevés értelme van, csak a példa kedvéért :) 
-```
+Ennek most kevés értelme van, csak a példa kedvéért :)
 
 ### Speciális elemek
 
@@ -153,15 +146,15 @@ A dátumok tagolására angolul használatos a / jel, magyarul inkább szóköz�
 
 ## Fordítási fájlok kezelése
 
-### .pot fájlok előállítása
+### POT-fájlok előállítása
 
 A `.pot` fájlokat általában a projekt honlapjáról letölthető tarballok tartalmazzák, így ha egy ilyen formában beszerzett programot akarunk fordítani, a `/po` könyvtárban megtaláljuk. Más a helyzet, ha egy CVS-ből származó programunk van, vagy egyszerűen csak meg akarunk győződni, hogy a `.pot` fájl naprakész. A GTK-t használó programok esetén általában ezt a `/po` könyvtárban kiadott `intltool-update --pot` paranccsal állíthatjuk elő.
 
-### .po fájlok aktualizálása
+### PO-fájlok aktualizálása
 
 Gyakoribb eset, hogy egy programnak már van fordítása, ám annak elkészülte óta a program fejlődött, karakterláncek jöttek-mentek, ám a .po-fájl még nem tükrözi ezeket a változásokat. Ez főleg a CVS-ből frissen letöltött forrásoknál fordulhat elő. Ekkor az intltool-t használó programok esetén a /po könyvtárban az intltool-update hu parancsot kell kiadni. Ezután a létező hu.po tartalmazni fogja az időközben keletkezett új üzeneteket. Ez az eset azért is érdekes, mert ilyenkor keletkeznek a fuzzy üzenetek: a gettext megpróbálja megtalálni azon üzeneteket, amelyek nagyon hasonlítanak egy már lefordított üzenetre, tehát valószínűleg a fordításuk is nagyon hasonló lesz. Ha talál egy ilyet, akkor az új, a lefordított régihez hasonló üzenethez beírja a régi fordítását, és megjelöli fuzzy-ként, így próbálja meg a fordítók munkáját segíteni.
 
-A /po könyvtárban kiadott make update-po parancs a fenti műveletet az összes létező fordításra végrehajtja, ezt a fejlesztők a tarballok kiadása előtt ki szokták adni.
+A `/po` könyvtárban kiadott `make update-po` parancs a fenti műveletet az összes létező fordításra végrehajtja, ezt a fejlesztők a tarballok kiadása előtt ki szokták adni.
 
 ### Eltérő verziók kezelése
 
@@ -173,7 +166,7 @@ $ msgmerge -o eredmeny.po regi.po uj.po
 
 Ekkor is keletkezhetnek fuzzy fordítások.
 
-### .po fájlok szintaktikai ellenőrzése
+### PO-fájlok szintaktikai ellenőrzése
 
 Miután befejeztük egy fájl fordítását, adjuk ki a következő parancsot:
 
@@ -191,13 +184,13 @@ Ha a szintaktikai ellenőrzés nem talál hibát, akkor kipróbálhatjuk a progr
 $ msgfmt -o $PREFIX/share/locale/hu/LC_MESSAGES/$GETTEXT_PACKAGE.mo hu.po
 ```
 
-A $GETTEXT\_PACKAGE az a név, amelyet a program a fordítás azonosítására használ, ezt a forrásból vagy az intltool-update --pot kiadása után létrejött .pot fájl nevéből lehet kideríteni.
+A `$GETTEXT\_PACKAGE` az a név, amelyet a program a fordítás azonosítására használ, ezt a forrásból vagy az `intltool-update --pot` kiadása után létrejött .pot fájl nevéből lehet kideríteni.
 
-Általában megegyezik a program nevével, néha azonban tartalmazhat egy verziószámot. A célkönyvtár disztribúció-specifikus, általában az alapértelmezett használatos, egyes terjesztések (pl.: [Ubuntu](Ubuntu "wikilink"): locale helyett locale-langpack a nyelvi csomagokkal érkező fordítások esetén) viszont mást (is) használnak.
+Általában megegyezik a program nevével, néha azonban tartalmazhat egy verziószámot. A célkönyvtár disztribúció-specifikus, általában az alapértelmezett használatos, egyes terjesztések (pl.: [Ubuntu](Ubuntu "wikilink"): locale helyett `locale-langpack` a nyelvi csomagokkal érkező fordítások esetén) viszont mást (is) használnak.
 
-A $PREFIX a csomag fordításakor használt --prefix kapcsoló, bináris csomagoknál /usr, ha forrásból telepítünk, akkor /usr/local, suse esetén a /opt/gnome és a /opt/kde3 is használatos. [FIXME](FIXME "wikilink"): egyéb disztribúciók?
+A `$PREFIX` a csomag fordításakor használt `--prefix` kapcsoló, bináris csomagoknál `/usr`, ha forrásból telepítünk, akkor `/usr/local`, SUSE esetén az `/opt/gnome` és az `/opt/kde3` is használatos. [FIXME](FIXME "wikilink"): egyéb disztribúciók?
 
-Másik lehetőség a fordítás beüzemelésére, hogy hu.po néven bemásoljuk a /po könyvtárba, és módosítjuk a configure.in (esetleg .am) fájlban található ALL\_LINGUAS változót úgy, hogy az értékek közé felvesszük a hu jelölést is, majd kiadjuk az autoconf parancsot és hagyományos módon telepítjük a programot.
+Másik lehetőség a fordítás beüzemelésére, hogy `hu.po` néven bemásoljuk a `/po` könyvtárba, és módosítjuk a `configure.in` (esetleg .am) fájlban található ALL\_LINGUAS változót úgy, hogy az értékek közé felvesszük a `hu` jelölést is, majd kiadjuk az `autoconf` parancsot és hagyományos módon telepítjük a programot.
 
 ### Helyesírás-ellenőrzés
 

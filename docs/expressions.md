@@ -5,26 +5,26 @@
 A szinte minden programban meglévő menük:
 
 |angol|magyar|
-|File|**_Fájl_**|
-|Edit|**_Szerkesztés_**|
-|View|**_Nézet_**|
-|Insert|**_Beszúrás_**|
-|Window|**_Ablak_**|
-|Help|**_Súgó_**|
+|File|**Fájl**|
+|Edit|**Szerkesztés**|
+|View|**Nézet**|
+|Insert|**Beszúrás**|
+|Window|**Ablak**|
+|Help|**Súgó**|
 
-Az egyes menükben **_parancs_**ok vannak (nem ~~utasítás~~ok), amelyeket **_választ_**hatunk (click, choose). (A „**_válasszon egy parancsot_**” szerencsésebb, mint a „<u>válasszon ki egy parancsot</u>”.) Példa: **_Kattintson a Fájl menü Megnyitás parancsára_**. Egy **_menü_** valamely **_elem_**éhez tartozhat **_almenü_** is, ahol további **_parancs_**ok állhatnak. Bizonyos **_menüparancs_**ok mellett a kattintáskor egy **_pipa_** jelenik meg. Ezt a műveletet **_kijelölés_**nek, esetleg **_megjelölés_**nek nevezzük. A menüben lévő parancsok általában feketék, de elképzelhető, hogy egy parancs éppen **_nem áll rendelkezésre_** (**_nem érhető el_**) – ilyenkor halványan jelenik meg.
+Az egyes menükben **parancs**ok vannak (nem ~~utasítás~~ok), amelyeket **választ**hatunk (click, choose). (A „**válasszon egy parancsot**” szerencsésebb, mint a „<u>válasszon ki egy parancsot</u>”.) Példa: **Kattintson a Fájl menü Megnyitás parancsára**. Egy **menü** valamely **elem**éhez tartozhat **almenü** is, ahol további **parancs**ok állhatnak. Bizonyos **menüparancs**ok mellett a kattintáskor egy **pipa** jelenik meg. Ezt a műveletet **kijelölés**nek, esetleg **megjelölés**nek nevezzük. A menüben lévő parancsok általában feketék, de elképzelhető, hogy egy parancs éppen **nem áll rendelkezésre** (**nem érhető el**) – ilyenkor halványan jelenik meg.
 
 ## Párbeszédablakok
 
-Egy **_párbeszédablak_** (dialog, dialog box) több **_lap_**ból (tab) is állhat. Ilyenkor az egyes **_fül_**ekre (angolul ez is tab) kattintva léphetünk át másik lapra (tab). Magán az ablakon számos **_objektum_** lehet, és az ezekkel kapcsolatos igék is kavarodást okozhatnak. **_Kattint_**ani mindenre lehet. Ezen kívül a **_jelölőnégyzet_**et (check box) **_kijelöl_**hetjük, **_bejelöl_**hetjük, **_beikszel_**hetjük vagy **_kipipál_**hatjuk, a **_választógomb_**ot (radio button) **_választ_**hatjuk, **_kiválaszt_**hatjuk. A **_listá_**ban (list box) különböző **_elem_**ek vannak (nem <u>tétel</u>ek). A listát **_lapoz_**hatjuk, **_görget_**hetjük, a listából **_kiválaszt_**hatunk egy elemet, a **_kombinált listá_**t (combo box) **_kinyit_**hatjuk, a **_gomb_**okat (button) **_választ_**hatjuk, **_megnyom_**hatjuk.
+Egy **párbeszédablak** (dialog, dialog box) több **lap**ból (tab) is állhat. Ilyenkor az egyes **fül**ekre (angolul ez is tab) kattintva léphetünk át másik lapra (tab). Magán az ablakon számos **objektum** lehet, és az ezekkel kapcsolatos igék is kavarodást okozhatnak. **Kattint**ani mindenre lehet. Ezen kívül a **jelölőnégyzet**et (check box) **kijelöl**hetjük, **bejelöl**hetjük, **beikszel**hetjük vagy **kipipál**hatjuk, a **választógomb**ot (radio button) **választ**hatjuk, **kiválaszt**hatjuk. A **listá**ban (list box) különböző **elem**ek vannak (nem <u>tétel</u>ek). A listát **lapoz**hatjuk, **görget**hetjük, a listából **kiválaszt**hatunk egy elemet, a **kombinált listá**t (combo box) **kinyit**hatjuk, a **gomb**okat (button) **választ**hatjuk, **megnyom**hatjuk.
 
 A programelemek ragozásánál – megállapodás szerint – a következő alakokat használjuk:
 
--   **_listából_** (választunk egy elemet), tehát nem <u>listáról</u>
--   **_(párbeszédablakon_**, tehát nem <u>ablakban</u>
--   **_jelentésben_**, tehát nem <u>jelentésen</u>
--   **_űrlapon_**, tehát nem <u>űrlapban</u>
--   **_lekérdezésben_**, tehát nem <u>lekérdezésen</u>
+-   **listából** (választunk egy elemet), tehát nem <u>listáról</u>
+-   **(párbeszédablakon**, tehát nem <u>ablakban</u>
+-   **jelentésben**, tehát nem <u>jelentésen</u>
+-   **űrlapon**, tehát nem <u>űrlapban</u>
+-   **lekérdezésben**, tehát nem <u>lekérdezésen</u>
 
 ## Fontosabb szakkifejezések
 
@@ -34,11 +34,11 @@ A programelemek ragozásánál – megállapodás szerint – a következő alak
 
 ### ~~Mágneslemez~~
 
-Ne használjuk a **_hajlékonylemez_** (**_floppy_**) szinonimájaként, mert a merevlemezek is mágneses elven működnek, így azok is mágneslemezek. Ezt a szót tehát ne használjuk, mert inkább csak félreértést okozhat.
+Ne használjuk a **hajlékonylemez** (**floppy**) szinonimájaként, mert a merevlemezek is mágneses elven működnek, így azok is mágneslemezek. Ezt a szót tehát ne használjuk, mert inkább csak félreértést okozhat.
 
 ### ~~Winchester~~
 
-Ne használjuk a **_merevlemez_** vagy **_lemez_** szinonimájaként.
+Ne használjuk a **merevlemez** vagy **lemez** szinonimájaként.
 
 ### Formázás
 
@@ -50,7 +50,7 @@ Kimenetele eseménynek lehet: sikeres vagy sikertelen. Amit a program a képerny
 
 ## Parancs kiadása
 
-Parancsot ***kiad***unk a gépnek, nem ~~beadunk~~ vagy ilyesmi. Esetleg begépelünk, beviszünk, de ezek nem a lényegre utalnak, nem a parancs kiadásának tényére koncentrálnak, hanem a billentyűk leütésére, ami csak egy eszköz a cél elérése érdekében. Tehát: **_adjuk ki a top parancsot_**.
+Parancsot ***kiad***unk a gépnek, nem ~~beadunk~~ vagy ilyesmi. Esetleg begépelünk, beviszünk, de ezek nem a lényegre utalnak, nem a parancs kiadásának tényére koncentrálnak, hanem a billentyűk leütésére, ami csak egy eszköz a cél elérése érdekében. Tehát: **adjuk ki a top parancsot**.
 
 ### Kattintás, klikkelés
 
