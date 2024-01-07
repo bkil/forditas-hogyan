@@ -36,23 +36,19 @@ A személytelenségre törekvés nem csak az angolban igen gyakori birtokos szer
 
 A stílus körébe tartozik az az általános szabály is, mely szerint a nem teljes mondat értékű igei szerkezetek főnevesítve fordítandók. Ezt a szabályt követjük magának a programnak a fordításakor is.
 
-|angol|magyar|
-|-|-|
-|Open|**Megnyitás**|
-|Save|**Mentés**|
-|Exit|**Kilépés**|
+ - Open → **Megnyitás**
+ - Save → **Mentés**
+ - Exit → **Kilépés**
 
 E szabály alól van két jelentős kivétel:
 
-|angol|magyar|
-|-|-|
-|Apply|**Alkalmaz**|
-|Cancel|**Mégse**|
+ - Apply → **Alkalmaz**
+ - Cancel → **Mégse**
 
 A súgóban ez elsősorban a témakörök címénél fontos, hiszen az eredeti szöveg itt sokszor használ igét, igenevet, esetleg kérdő formát. Magyarul mindezen esetekben főnévi szerkezetet használunk. Néhány példa:
 
-|Opening/To Open a Document|**Dokumentum megnyitása**|
-|How to Close a Document?|**Dokumentum bezárása**|
+ - Opening/To Open a Document → **Dokumentum megnyitása**
+ - How to Close a Document? → **Dokumentum bezárása**
 
 Hagyomány szerint az „_Overview of_ closing a file” típusú címeket a következő formában fordítjuk: „**Fájl bezárása – áttekintés**”.
 
@@ -63,10 +59,7 @@ Itt hívjuk fel a figyelmet arra, hogy a _műveletek lépéseinél_ magyarul is 
 
 ## Speciális karakterek
 
-Mindig a tipográfiailag helyes szimbólumok használatára törekedjünk.
-A LibreOffice Lightproof beállításai között ezek közül többre is elérhető szabály.
-Ezek egy részére másik fejezetben részletesebben is kitérünk.
-Néhány példa:
+Mindig a tipográfiailag helyes szimbólumok használatára törekedjünk. A LibreOffice Lightproof beállításai között ezek közül többre is érhető el szabály. Ezek egy részére másik fejezetben részletesebben is kitérünk. Néhány példa:
 
 |mellőzendő karakter|használandó karakter|használat|
 |-|-|-|

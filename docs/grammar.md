@@ -39,7 +39,7 @@ Az **stb.**, **ún.**, **vö.**, **ti.** rövidítések használhatók. <!-- FIX
 
 ## Akar
 
-Több helyen megy hosszú bekezdéseken keresztül, hogy „ha ezt akarja, csinálja ezt; ha azt akarja, csinálja azt, stb. A fordítás során használjuk változatosan a szinonimákat: **akar**, **szeretne**, **kíván**, néha esetleg **óhajt** vagy **szándékozik** szavakat, illetve egyéb megfogalmazásokat is használatunk, például **ha ez a célunk**.
+Több helyen megy hosszú bekezdéseken keresztül, hogy „ha ezt akarja, csinálja ezt; ha azt akarja, csinálja azt, stb. A fordítás során használjuk változatosan a szinonimákat: **akar**, **szeretne**, **kíván**, néha esetleg **óhajt** vagy **szándékozik** szavakat, illetve egyéb megfogalmazásokat is használatunk, például **ha ez a célunk**. <!-- FIXME: vagy kerüljük, mert felesleges modoroskodás -->
 
 ## Igekötők
 
@@ -90,7 +90,7 @@ Ezzel szemben néhány közismert példa ahol a fonetikus átírás is elfogadha
 * **emodzsi**
 * **kapucsínó**
 
-## Az /etc és társai
+## Az `/etc` és társai
 
 Könyvtárak, fájlok neve előtt a névelőt úgy tegyük ki, hogy kiejtésben, illetve könyv olvasásakor szinte biztos, hogy az olvasó nem ejti ki képzeletben a „per” szócskát. <!-- FIXME: Sokat ismerek aki igen - velük mi lesz? Én a zárójeles kiejtés nélkül nem is értettem volna az itteni névelőket. --> Tehát:
 

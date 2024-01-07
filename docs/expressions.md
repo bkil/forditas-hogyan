@@ -16,12 +16,12 @@ Az egyes menükben **parancs**ok vannak (nem ~~utasítás~~ok), amelyeket **vál
 
 ## Párbeszédablakok
 
-Egy **párbeszédablak** (dialog, dialog box) több **lap**ból (tab) is állhat. Ilyenkor az egyes **fül**ekre (angolul ez is tab) kattintva léphetünk át másik lapra (tab). Magán az ablakon számos **objektum** lehet, és az ezekkel kapcsolatos igék is kavarodást okozhatnak. **Kattint**ani mindenre lehet. Ezen kívül a **jelölőnégyzet**et (check box) **kijelöl**hetjük, **bejelöl**hetjük, **beikszel**hetjük vagy **kipipál**hatjuk, a **választógomb**ot (radio button) **választ**hatjuk, **kiválaszt**hatjuk. A **listá**ban (list box) különböző **elem**ek vannak (nem <u>tétel</u>ek). A listát **lapoz**hatjuk, **görget**hetjük, a listából **kiválaszt**hatunk egy elemet, a **kombinált listá**t (combo box) **kinyit**hatjuk, a **gomb**okat (button) **választ**hatjuk, **megnyom**hatjuk.
+Egy **párbeszédablak** (dialog, dialog box) több **lap**ból (tab) is állhat. Ilyenkor az egyes **fül**ekre (angolul ez is tab) kattintva léphetünk át másik **lap**ra (tab). Magán az ablakon számos **objektum** lehet, és az ezekkel kapcsolatos igék is kavarodást okozhatnak. **Kattint**ani mindenre lehet. Ezen kívül a **jelölőnégyzet**et (check box) **kijelöl**hetjük, **bejelöl**hetjük, **beikszel**hetjük vagy **kipipál**hatjuk, a **választógomb**ot (radio button) **választ**hatjuk, **kiválaszt**hatjuk. A **listá**ban (list box) különböző **elem**ek vannak (nem <u>tétel</u>ek). A listát **lapoz**hatjuk, **görget**hetjük, a listából **kiválaszt**hatunk egy elemet, a **kombinált listá**t (combo box) **kinyit**hatjuk, a **gomb**okat (button) **választ**hatjuk, **megnyom**hatjuk.
 
 A programelemek ragozásánál – megállapodás szerint – a következő alakokat használjuk:
 
 -   **listából** (választunk egy elemet), tehát nem <u>listáról</u>
--   **(párbeszédablakon**, tehát nem <u>ablakban</u>
+-   **párbeszédablakon**, tehát nem <u>ablakban</u>
 -   **jelentésben**, tehát nem <u>jelentésen</u>
 -   **űrlapon**, tehát nem <u>űrlapban</u>
 -   **lekérdezésben**, tehát nem <u>lekérdezésen</u>
@@ -30,13 +30,13 @@ A programelemek ragozásánál – megállapodás szerint – a következő alak
 
 ### Képernyő és monitor
 
-***Monitor***nak, és nem képernyőnek hívjuk a hardvereszközt. A ***képernyő*** a monitor megfelelő részén világítva megjelenő kétdimenziós ábra.
+***Monitor***nak, és nem képernyőnek hívjuk a hardvereszközt. A ***képernyő*** a monitoron megfelelő részén világítva megjelenő kétdimenziós ábra.
 
-### ~~Mágneslemez~~
+### Mágneslemez
 
 Ne használjuk a **hajlékonylemez** (**floppy**) szinonimájaként, mert a merevlemezek is mágneses elven működnek, így azok is mágneslemezek. Ezt a szót tehát ne használjuk, mert inkább csak félreértést okozhat.
 
-### ~~Winchester~~
+### Winchester
 
 Ne használjuk a **merevlemez** vagy **lemez** szinonimájaként.
 
@@ -46,7 +46,7 @@ A hajlékonylemezt ***formázni*** lehet. Nem ~~formatálni~~ vagy ~~formattáln
 
 ### Kimenet – kimenetel
 
-Kimenetele eseménynek lehet: sikeres vagy sikertelen. Amit a program a képernyőre kiír, az kimenet (nem ~~kimenetel~~, és pláne nem ~~kiadás~~).
+Kimenetele eseménynek lehet: sikeres vagy sikertelen. Amit a program a képernyőre kiír, az **kimenet** (nem ~~kimenetel~~, és pláne nem ~~kiadás~~).
 
 ## Parancs kiadása
 

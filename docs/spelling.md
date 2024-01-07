@@ -254,9 +254,9 @@ Különírjuk, ha az _a_ vagy _e_ egy (alanyra mutató) mutatószó, például:
 
 Egybeírjuk, ha határozószó, vagyis ha az a vagy e nem értelmezhető mutatószóként, legfeljebb a másik tagmondat teljes egészére (azaz állítmányára) mutató mutatószóként (de ez már nyakatekert értelmezés). Ilyenkor „hogy” szokta követni a szót.
 
-* **Hazament anélkül, hogy elköszönt volna.**
+> **Hazament anélkül, hogy elköszönt volna.**
 
-* **Már megint játszol, ehelyett igazán csinálhatnál valami értelmesebbet.**
+> **Már megint játszol, ehelyett igazán csinálhatnál valami értelmesebbet.**
 
 ### A leggyakrabban rosszul írt szavak szótára
 
@@ -268,7 +268,7 @@ Egybeírjuk, ha határozószó, vagyis ha az a vagy e nem értelmezhető mutató
 | **amíg** | Hosszú í. |
 | **aposztróf** | Hosszú ó. |
 | **attribútum** | Hosszú ú. |
-| **audio-** | Rövid o. Lásd video. Például: **audio-CD**. |
+| **audio-** | Rövid o. Általában *hang-* előtagként fordítjuk. |
 | **bal oldal, bal oldali, bal oldalon** | Két szó (a politikai értelemben vett *baloldal* van egybe írva). |
 | **baloldalt** | _Bal oldalon_ értelemben egy szó. |
 | **bocsát** | Nincsen benne j betű. |
@@ -277,12 +277,12 @@ Egybeírjuk, ha határozószó, vagyis ha az a vagy e nem értelmezhető mutató
 | **elöl** | Valami nem hátul van, hanem elöl. Kezdjük **elölről**. |
 | **elől** | Menekül valaki elől. |
 | **e-mail, e-mailen, e-mailezés** | Az *e-mail* szótő kötőjelet tartalmaz, a ragokat kötőjel nélkül kapcsoljuk. |
-| **e-mail cím, e-mail kapcsolat** | Külön. |
+| **e-mail-cím, e-mail-kapcsolat** | Régen különírandó volt, de ez megváltozott, lásd AkH12. |
 | **ezenfelül, ezenkívül (és még, továbbá értelemben)** | Egy szó. |
 | **hajlékonylemez** | Egy szó. |
 | **internet** | Kis i, nem tulajdonnév, mára köznevesült. |
-| **internetelérés** | Csak hat szótag, ezért egyben van. |
-| **internet-hozzáférés** | Kötőjellel. |
+| **internetelérés** | Összetett szó, de nem többszörösen, és egyébként is csak 6 szótagú. |
+| **internet-hozzáférés** | Kötőjellel, mert 7 szótagú, többszörösen összetett szó. |
 | **irt** (jelen idejű ige) | Rövid i. Például **vírusirtó** |
 | **kiváló** | Rövid i. |
 | **kíván, kíváncsi** | Hosszú í. |
@@ -307,6 +307,5 @@ Egybeírjuk, ha határozószó, vagyis ha az a vagy e nem értelmezhető mutató
 | **ún.** | =úgynevezett. A végén van pont, de a közepén nincs. Hosszú ú. |
 | **utána** | Egy n. |
 | **utolsó, utoljára** | Rövid o. |
-| **video- (videokártya, videomód, videomagnó, videokamera, video-CD)** | szóösszetételben, illetve jelzőként rövid o. Egyedül az önálló szóként, videomagnó vagy mozgókép-felvétel értelemben elterjedt **videó** szó van hosszú ó-val. |
 | **vö.** | =vesd össze. A végén van pont, de a közepén nincs. |
 

@@ -8,7 +8,7 @@ Ebben a részben olyan gyakori hibákat soroltunk fel, amelyeket a legtöbb kezd
 |-|-|
 |virtually|~~virtuálisan~~ helyett **gyakorlatilag**|
 |specific|~~speciális~~ helyett **különleges**, **jellemző** |
-|powerful|~~erőteljes~~ helyett **hatékony**|
+|powerful|~~erőteljes~~ helyett **hatékony** vagy **sokoldalú**|
 |technically|~~technikailag~~ helyett **szigorúan véve**|
 |tricky|~~trükkös~~ helyett **nehéz**, **problémás**|
 
@@ -24,15 +24,15 @@ A _%s_ és úgy általában, minden változó névelője **a(z)**. Két-vagy há
 
 Az angol eredetiben gyakran láthatók ehhez hasonló szerkezetek, például névjegy panelen vagy állapotjelzésként, mert az angol nem használ névelőt a tulajdonnevek előtt. Viszont magyarul tegyünk elé névelőt, például: „A Gaim egy többfunkciós csevegőkliens”.
 
-## „\_Ignore”
+<!--## „\_Ignore”
 
 ~~K\_ihagy~~ helyett **kihagyás**, hasonlóan a kivágás, másolás, mentés, megnyitás, és társaihoz.
 
-Kivéve: **alkalmaz**, a szabály erősítése és a gombok szélességével való spórolás témája miatt.
+Kivéve: **alkalmaz**, a szabály erősítése és a gombok szélességével való spórolás témája miatt.-->
 
 ## „Mondatközi Nagybetűk”
 
-Általános hiba, hogy ha egy mondaton belül több szó is nagybetűvel kezdődik, azt a magyarban is nagybetűvel kezdik. Ez helytelen.
+Általános hiba, hogy ha egy mondaton belül több szó is nagybetűvel kezdődik, azt a magyarban is nagybetűvel kezdik ezeket. Ez helytelen, a feliratokban is csak az első szó nagybetűs.
 
 ## Gyorsbillenty\_ű ékezet előtt
 
@@ -48,32 +48,34 @@ Ha egy menün/ablakon belül több menüpont/vezérlőelem is ugyanazzal a gyors
 
 ## Két szóköz mondatvégi pont után
 
-Ha ilyen van az angol eredetiben, akkor a magyarban nem vesszük át. (Lásd: French spacing)
+Ha ilyen van az angol eredetiben, akkor a magyarban nem vesszük át (lásd: [French spacing](https://en.wikipedia.org/wiki/History_of_sentence_spacing).
 
 ## Szóköz karakterláncok végén
 
 Az előbbihez hasonló jelenség amikor a karakterlánc végén is áll egy szóköz, például:
 
 ```python
-msgid "Options "
-msgstr "Beállítások "
+    msgid "Options "
+    msgstr "Beállítások "
 ```
 
-Ezt a szóközt általában azért érdemes meghagyni, mert lehet, hogy a programozó sietett és nem állította be [helyesen a térközt](http://library.gnome.org/devel/hig-book/stable/design-text-labels.html.en#layout-label-position), és helyette egy szóközzel javított a felület megjelenésén. Praktikus hibaként bejelenteni és kérni az eredetiből a szóköz eltávolítását, akár hivatkozva az imént hivatkozott GNOME HIG-re (ha az adott projektnél ezt figyelembe veszik).
+Ezt a szóközt általában azért érdemes meghagyni, mert lehet, hogy a programozó sietett és nem állította be [helyesen a térközt](http://library.gnome.org/devel/hig-book/stable/design-text-labels.html.en#layout-label-position), és helyette egy szóközzel javított a felület megjelenésén. Praktikus hibaként bejelenteni és kérni az eredetiből a szóköz eltávolítását, akár hivatkozva a GNOME HIG-re (ha az adott projektnél ezt figyelembe veszik).
 
 ## Két karakterláncból álló mondatok
 
-Néha előfordul, hogy egy mondat két külön `msgid`-ben van leírva, a kettő között pedig általában valamilyen felületi elem például léptetőgomb áll. Ezt arról lehet felismerni, hogy egymás után két fél-mondat áll, amik „mintha” összetartoznának, és a megjegyzésben az előfordulási helyük csak néhány (&lt;10) sornyira van egymástól. Ilyenkor nem kell nagyon ragaszkodni külön-külön az eredeti karakterláncok értelméhez, elég, ha a két üzenet együtt adja vissza a teljes mondat értelmét. Például:
+Néha előfordul, hogy egy mondat két külön `msgid`-ben van leírva, a kettő között pedig általában valamilyen felületi elem például léptetőgomb áll. Ezt arról lehet felismerni, hogy egymás után két félmondat áll, amelyek mintha összetartoznának, és a megjegyzésben az előfordulási helyük csak néhány (&lt;10) sornyira van egymástól. Ilyenkor nem kell nagyon ragaszkodni külön-külön az eredeti karakterláncok értelméhez, elég, ha a két üzenet együtt adja vissza a teljes mondat értelmét. Például:
 
 ```python
-msgid "S_witch off after:"
-msgstr "Kika_pcsolás:"
+    msgid "S_witch off after:"
+    msgstr "Kika_pcsolás:"
  
-msgid "minutes"
-msgstr "perc után"
+    msgid "minutes"
+    msgstr "perc után"
 ```
 
-Ez a programban valahogy így néz ki: Kika\_pcsolás: &lt;10&gt; perc után
+Ez a programban valahogy így néz ki:
+
+> Kika\_pcsolás: &lt;10&gt; perc után.
 
 Az ilyen karakterláncokat is érdemes hibaként bejelenteni.
 
