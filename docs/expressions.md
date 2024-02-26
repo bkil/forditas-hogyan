@@ -5,6 +5,7 @@
 A szinte minden programban meglévő menük:
 
 |angol|magyar|
+|-|-|
 |File|**Fájl**|
 |Edit|**Szerkesztés**|
 |View|**Nézet**|
