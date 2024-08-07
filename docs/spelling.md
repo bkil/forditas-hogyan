@@ -236,7 +236,7 @@ A következőknél nem használunk kötőjelet:
  - **balról jobbra**,
  - **hétfőtől péntekig**,
  - **egytől egyig**,
- - **makótól Jeruzsálemig**,
+ - **Makótól Jeruzsálemig**,
  - **lépésről lépésre**,
  - **időről időre**,
  - **várva várt**,
