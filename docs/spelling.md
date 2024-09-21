@@ -1,6 +1,6 @@
 # Helyesírás
 
-A magyar helyesírás ismerete, fordítókról lévén szó, egyike a legalapvetőbb követelményeknek. A mindenre kiterjedő útmutatás nem is lehet ennek a rövid ismertetőnek a feladata, a legtöbb gondot okozó témakörökre mégis fel szeretnénk hívni a figyelmet, megemlítve a legfontosabb szabályokat. Bárminemű kétely esetén – és egyébként is – tudjuk ajánlani „[A magyar helyesírás szabályai](http://helyesiras.mta.hu/helyesiras/default/akh12)” című könyvet.
+A magyar helyesírás ismerete, fordítókról lévén szó, egyike a legalapvetőbb követelményeknek. A mindenre kiterjedő útmutatás nem is lehet ennek a rövid ismertetőnek a feladata, a legtöbb gondot okozó témakörökre mégis fel szeretnénk hívni a figyelmet, megemlítve a legfontosabb szabályokat. Bárminemű kétely esetén – és egyébként is – tudjuk ajánlani *[A magyar helyesírás szabályait](http://helyesiras.mta.hu/helyesiras/default/akh12)*.
 
 ## Gyakori hibák
 
@@ -260,9 +260,9 @@ Egybeírjuk, ha határozószó, vagyis ha az a vagy e nem értelmezhető mutató
 
 ### A leggyakrabban rosszul írt szavak szótára
 
-|helyes használat|magyarázat|
+|Helyes használat|Magyarázat|
 |-|-|
-| **0-s, 2.4.0-s kernel, 4.2.0-s X-kiszolgáló, 1.0-s UHU Linux** | Nincsen benne á betű. Minden más (nem 0-val végződő) szám után van kötőhangzó. Helyesen tehát: **0-t, 1-et, 2-t stb.** |
+| **0-s, 2.4.0-s kernel, 4.2.0-s X-kiszolgáló, 1.0-s UHU Linux** | Nincsen benne á betű. Minden más mássalhangzóra végződő szám után van kötőhangzó. Helyesen tehát: **0-t, 1-et, 2-t, 3-at stb.** |
 | **8 bites, 16 bites** | Külön írandó. Betűvel: nyolcbites, tizenhat bites. |
 | **addig** | Rövid i. |
 | **amíg** | Hosszú í. |
@@ -286,9 +286,9 @@ Egybeírjuk, ha határozószó, vagyis ha az a vagy e nem értelmezhető mutató
 | **irt** (jelen idejű ige) | Rövid i. Például **vírusirtó** |
 | **kiváló** | Rövid i. |
 | **kíván, kíváncsi** | Hosszú í. |
-| **kisbetű** | Ha azt kell kifejezni, hogy abcde és nem ABCDE, akkor egy szó. Ha esetleg nagyítóval alig olvasható szövegről van szó, <small>Mint Ez Itt</small> (ami persze tartalmazhat kis- és és nagybetűket is), akkor ez a szöveg **kis betűkkel** van írva. |
-| **l.** | =lásd. Nem ~~ld.~~ és nem is ~~lsd.~~. Lehetőleg inkább írjuk ki, hogy **lásd**. |
-| **licenc, licence, licencet, licenccel, licencel** | Nem ~~licensz~~ és nem is ~~liszensz~~! (Az angol alak license, tehát például GPL = General Public License, ezt nem fordítjuk le magyarra.) A magyarba német közvetítéssel jutott. |
+| **kisbetű** | Ha azt kell kifejezni, hogy abcde és nem ABCDE, akkor egy szó. Ha esetleg alig olvasható szövegről van szó, <small>mint ez itt</small> (ami persze tartalmazhat kis- és és nagybetűket is), akkor ez a szöveg **kis betűkkel** van írva. |
+| **l.** | = lásd. Nem ~~ld.~~ és nem is ~~lsd.~~. Lehetőleg inkább írjuk ki, hogy **lásd**. |
+| **licenc, licence, licencet, licenccel, licencel** | Nem ~~licensz~~ és nem is ~~liszensz~~! (Az angol alak license, tehát például GPL = General Public License, ezt nem fordítjuk le magyarra.) A magyarba német közvetítéssel jutott (vö. [die Lizenz](https://www.duden.de/rechtschreibung/Lizenz)). |
 | **merevlemez** | Egy szó. |
 | **minél** | Egy n. Minél több, annál jobb. |
 | **muszáj** | Pontos j, de egyébként se használjuk ezt a szót írott nyelvben. |
@@ -302,10 +302,10 @@ Egybeírjuk, ha határozószó, vagyis ha az a vagy e nem értelmezhető mutató
 | **semmilyen** | Két m. |
 | **szimbolikus** | Rövid o. |
 | **szintaxis** | x betűvel. |
-| **ti.** | =tudniillik. A végén van pont, de a közepén nincs. |
+| **ti.** | = tudniillik. A végén van pont, de a közepén nincs. |
 | **típus** | Hosszú í. |
-| **ún.** | =úgynevezett. A végén van pont, de a közepén nincs. Hosszú ú. |
+| **ún.** | = úgynevezett. A végén van pont, de a közepén nincs. Hosszú ú. |
 | **utána** | Egy n. |
 | **utolsó, utoljára** | Rövid o. |
-| **vö.** | =vesd össze. A végén van pont, de a közepén nincs. |
+| **vö.** | = vesd össze. A végén van pont, de a közepén nincs. |
 

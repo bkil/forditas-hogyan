@@ -14,19 +14,6 @@ Az _ami_ viszont közelebbről meg nem határozott, általában főnévvel meg n
 
 A személyre vonatkozó aki névmás élettelen megfelelője tehát az _amely_, és nem az _ami_.
 
-<!-- FIXME: A példamondat pont rossz, mert önözést használva pont egybeesik (megválaszolnia)
-## Főnévi igenevek
-
-Másik hasonlóan általános lazaság a „csupasz” főnévi igenév.
-
-> Egy közgazdásznak nehéz lenne ezt <u>megválaszolni</u>.
-
-Ebben a példában nem lehet tudni, hogy a választ a közgazdász adja, vagy ő kapja. Szerencsére a magyar főnévi igenév ragozható, és így elkerülhető a félreértés:
-
-> **megválaszolnia** / **megválaszolnunk**.
-
-A fenti példában a csupasz főnévi igenév értelmi zavart okoz, de a ragozott alak olyan esetekben is elegánsabb, amikor a hiánya sem vezet félreértéshez. -->
-
 ## Mondatkezdés
 
 Kerüljük az *és*, *azonban*, *viszont*, *illetve* és *hát* szavakat a mondat elején.
@@ -35,11 +22,11 @@ Kerüljük az *és*, *azonban*, *viszont*, *illetve* és *hát* szavakat a monda
 
 Rövidítéseket, ha egy mód van rá, ne használjunk. Inkább írjuk ki a **például**, **illetve**, **lásd** szavakat, mintsem a rövidített <u>pl.</u>, <u>ill.</u>, <u>l.</u> alakjukat használjuk.
 
-Az **stb.**, **ún.**, **vö.**, **ti.** rövidítések használhatók. <!-- FIXME: miért? -->
+Megegyezés alapján a **stb.**, **ún.**, **vö.**, **ti.** rövidítések használhatók.
 
 ## Akar
 
-Több helyen megy hosszú bekezdéseken keresztül, hogy „ha ezt akarja, csinálja ezt; ha azt akarja, csinálja azt, stb. A fordítás során használjuk változatosan a szinonimákat: **akar**, **szeretne**, **kíván**, néha esetleg **óhajt** vagy **szándékozik** szavakat, illetve egyéb megfogalmazásokat is használatunk, például **ha ez a célunk**. <!-- FIXME: vagy kerüljük, mert felesleges modoroskodás -->
+Több helyen megy hosszú bekezdéseken keresztül, hogy „ha ezt akarja, csinálja ezt; ha azt akarja, csinálja azt, stb. A fordítás során használjuk változatosan a szinonimákat: **akar**, **szeretne**, **kíván**, néha esetleg **óhajt** vagy **szándékozik** szavakat, illetve egyéb megfogalmazásokat is használatunk, például **ha ez a célunk**. De teljesen ki is küszöbölhetjük ezeket a szerkezeteket, általában redundánsak.
 
 ## Igekötők
 
@@ -62,45 +49,31 @@ Ha tönkremegy a lemez, minden adatunk **elvész**. Nem helytelen az elveszik sz
 
 Vannak számítástechnikában is elterjedt igék, melyeket úgy használunk, mintha mi végeznénk valamit, holott tulajdonképpen a számítógép végzi el ezeket. Például **megnyitunk**, **mentünk**, **másolunk**, **átnevezünk**, **törlünk** egy fájlt. Ezekben az esetekben teljesen fölösleges, sőt erőltetett és zavaró a műveltető alakkal hangsúlyozni, hogy mi csak megkérjük a gépet ennek elvégzésére. Kerüljük tehát az olyan kifejezéseket, mint <u>mentetjük a fájlt</u>. Írjuk egyszerűen azt, hogy **mentjük a fájlt**.
 
-<!--## Optimális
-
-Vannak jelzők, melyek jelentésük alapján már felsőfokban állnak, habár formailag ez nem látszik rajtuk. Ilyen például az **optimális**, amely azt jelenti, hogy valamilyen szempont(ok) vagy komplex szempontrendszer szerint a legjobb. Ezt a szót teljesen értelmetlen tovább fokozni, középfokú és felsőfokú alakja nem létezik. Ha valaki aki azt mondja, hogy ~~legoptimálisabb~~ (vagyis *legeslegjobb*), az olyan, mintha egy verseny *első helyezettje*, azaz *győztese* helyett azt mondaná valaki, hogy ~~legelsőbb~~ vagy ~~leggyőztesebb~~.-->
-
 ## Magyar nyelven
 
-Nagyon gyakran találkozni a „magyar nyelven”, „angol nyelven” kifejezésekkel. Ezzel alapvetően semmi baj nincs, de amikor egymáshoz közel sok ilyen van, akkor már zavaró. Használjuk az egyszerűbb „magyarul”, „angolul” szavakat is a fentiek szinonimájaként, máris kevésbé lesz zavaró a szóismétlés, és kevésbé lesz fölöslegesen körülményes a megfogalmazás.
-
-Szerencsésebb azt mondani, hogy egy program „magyarul” szól a felhasználóhoz, mint azt, hogy „magyar nyelven” szól hozzá.
-
-<!-- FIXME: Itt inkább azt kellene mondani, hogy próbáljunk meghonosodott kifejezéseket használni, ha pedig ilyenről nem tudunk, akkor egyeztessünk róla, ahelyett, hogy nekiállunk egyedül alkotni valami fordítást.
+Nagyon gyakran találkozni a <u>magyar nyelven</u>, <u>angol nyelven</u> kifejezésekkel. Ezzel alapvetően semmi baj nincs, de amikor egymáshoz közel sok ilyen van, akkor már zavaró. Használjuk az egyszerűbb **magyarul**, **angolul** szavakat is a fentiek szinonimájaként, máris kevésbé lesz zavaró a szóismétlés, és kevésbé lesz fölöslegesen körülményes a megfogalmazás. Szerencsésebb azt mondani, hogy egy program **magyarul** szól a felhasználóhoz, mint azt, hogy <u>magyar nyelven</u> szól hozzá.
 
 ## Idegen szavak átírása
 
-<!-- FIXME TODO: -->
+Mindig újabb és újabb idegen szavak jelennek meg, melyeket fonetikusan megpróbál valaki átírni. Óvakodjunk ezektől. Lehetőség szerint használjuk a magyar terminológiát (például ~~imidzs~~ helyett **lemezkép**), de ha nincs jó magyar szó, vagy az adott szövegkörnyezetben az angol terminológiát kell használni, akkor írjuk le az angolt változatlanul (például **image**). Megjegyzendő, hogy még a bájt alakot sem vette át a magyar helyesírás, a **byte** a helyes magyar írásmód a szótár szerint (a báj szó tárgyragos változata miatt fogadja el a Hunspell).
 
-<!-- (Felmerült, hogy miután a szótárban szerepel a **kapucsínó** szó, mint helyes magyar alak, azután ennek a bekezdésnek semmi helye itt. De azért szerintem igenis van…) -->
-
-Mindig újabb és újabb idegen szavak jelennek meg, melyeket fonetikusan megpróbál valaki átírni. Óvakodjunk ezektől. Ha csak lehet, irtsuk az ~~imidzs~~ meg ehhez hasonló borzalmakat. Ezek a szavak még messze nem annyira részei nyelvünknek, hogy jogos legyen magyarul írni őket. Lehetőség szerint használjuk a magyar terminológiát (jelen konkrét példánál **lemezkép**), de ha nincs jó magyar szó, vagy az adott szövegkörnyezetben az angol terminológiát kell használni, akkor írjuk le az angolt változatlanul (például **image**). Megjegyzendő, hogy még a bájt alakot sem vette át a magyar helyesírás, a **byte** a helyes magyar írásmód a szótár szerint (a báj szó tárgyragos változata miatt fogadja el a Hunspell). Az ~~imidzs~~ láttán előre rettegek a ~~rútpásszvörd~~, ~~bútolás~~, ~~fréjmbáfför~~, ~~vizárd~~, ~~profájl~~, ~~pájp~~, ~~fléjmelés~~, ~~szájt~~, ~~fúbár~~ meg ehhez hasonló torzszülemények megjelenésétől.
-
-<!--- Véleményem szerint a ~~domén~~ (vagy akkor már miért nem ~~doméjn~~?) is ebbe a kategóriába tartozik, maradjunk a **domain** (de inkább **tartomány**) írásmódnál. --->
-
-Ezzel szemben néhány közismert példa ahol a fonetikus átírás is elfogadható:
+Természetesen itt se essünk át a ló túlsó oldalára, egyes fonetikus átírások már meghonosodtak a köznyelvben:
 
 * **domén** (vagy bizonyos jelentésben **tartomány**)
 * **emodzsi**
 * **kapucsínó**
 
+Ha nem ismerünk meghonosodott kifejezést, akkor ne próbáljunk meg egyedül új fordítást alkotni, ilyenkor érdemes egyeztetni, lehetséges hogy mások tudnak egy jó fordításról.
+
 ## Az `/etc` és társai
 
-Könyvtárak, fájlok neve előtt a névelőt úgy tegyük ki, hogy kiejtésben, illetve könyv olvasásakor szinte biztos, hogy az olvasó nem ejti ki képzeletben a „per” szócskát. <!-- FIXME: Sokat ismerek aki igen - velük mi lesz? Én a zárójeles kiejtés nélkül nem is értettem volna az itteni névelőket. --> Tehát:
+Megegyezés alapján a könyvtárak, fájlok neve előtt a névelőt úgy tesszük ki, hogy azt feltételezzük, hogy kiejtésben az olvasó nem ejti ki a „per” szócskát. Tehát:
 
  - **az /etc/lilo.conf** („az etécé lilókonf”)
  - **az /mnt** („az ementé”)
  - **az /opt/gnome2/bin** („az opt gnómkettő bin”)
  - **az /sbin/ifconfig** („az esbin íefkonfig”)
  - **a ~/.bashrc** („a bashrc”)
-
-<!--Függő kérdés, hogy a(z) /usr milyen névelőt kapjon. A Unix-guruk fele szerint régen itt volt a felhasználók home-ja, így a név a „user” szó rövid alakja, és ezáltal júzer-nek ejtendő, míg másik felük szerint ez egy betűszó, a Unix System Resources rövidítése, vagyis ú-es-er a kiejtés.-->
 
 ## Ragozott fájlnevek
 
@@ -110,7 +83,7 @@ Ne ragozzuk a fájlok, könyvtárak nevét, mert ez egyrészt nagyon csúnyán n
 
 A következőkben számos olyan konkrét fordulatot sorolunk fel, melyek igen gyakran fordulnak elő, és amelyek fordítása sokszor „hibás”.
 
-| helytelen|helyes|magyarázat|
+|Helytelen|Helyes|Magyarázat|
 |-|-|-|
 |Itt látható a hálózati <u>nyomtatók listája.</u>|Itt láthatók a hálózati **nyomtatók**|A *lista* a legtöbb hasonló helyzetben felesleges: magától értetődik, hogy nem maguk a nyomtatók jelennek meg |
 |Segítségével szöveget lehet másolni a <u>dokumentumok között</u>.|Segítségével szöveget lehet másolni az **egyik dokumentumból a másikba**.|Ez az angol szerkezet tükörfordítása.|
@@ -118,9 +91,9 @@ A következőkben számos olyan konkrét fordulatot sorolunk fel, melyek igen gy
 |A megnyitáshoz kattintson <u>erre</u>:|A megnyitáshoz kattintson **ide**:|Megállapodás szerint az első alakot nem használjuk.|
 |<u>Helyet biztosít arra</u>, hogy beírjuk a nevet.|**Ide lehet beírni** a nevet.|Szintén tükörfordítás.|
 |A fájl az előző héten <u>lett létrehozva</u>.|A fájlt az előző héten **hozták létre**. – VAGY – A fájl az előző héten **jött létre**.|Szenvedő szerkezetet lehetőleg ne használjunk – helyette gyakran használható személytelen fordulat. Ha mégis valami hasonlóra kényszerülünk, a **van** ige szerencsésebb a *lett*nél: **meg van határozva**.|
-|Válasszuk az X menü Y <u>menü</u>parancsát. – VAGY – <u>Adjuk ki</u> az X menüből az Y parancsot.|Kattintson az **X menü** Y parancsára. – VAGY – Válasszuk az **X menü Y parancsát**.| Megállapodás szerint ezeket az alakokat nem hasznájuk.|
-|Írjuk be a fájlok <u>neveit</u>.| Írjuk be a fájlok **nevét**.|Vegyük a következő példát: „az ablakok sarka”. Ez jelentheti (1) sok ablak egy közös sarkát, de (2) több ablak egy-egy sarkát is. Az első értelmet az angol egyes számmal fejezi ki („windows' corner”), a másodikat többes számmal („windows' corners”). A fordítási hiba abból adódik, hogy ez utóbbi kifejezés magyarul „az ablakok sarkai”-t is jelentheti (jelenthetné, hiszen minden ablaknak valóban több sarka van). Csak a szövegkörnyezet dönti el, hogy a „windows' corners” az ablakok több vagy egy-egy sarkát jelenti.|
-|Ha meg szeretné tekinteni a csoportokat, kattintson az OK gombra.|Ha meg szeretné tekinteni a csoportokat, _akkor_ kattintson az OK gombra.|A feltételes mondatok megértését, tagolását általában segíti a mutató névmás – az _akkor_ – kitétele.|
+|Válasszuk az X menü Y <u>menü</u>parancsát. – VAGY – <u>Adjuk ki</u> az X menüből az Y parancsot.|Kattintson az **X menü** Y parancsára. – VAGY – Válasszuk az **X menü Y parancsát**.| Megállapodás szerint ezeket az alakokat nem használjuk.|
+|Írjuk be a fájlok <u>neveit</u>.| Írjuk be a fájlok **nevét**.|Vegyük a következő példát: „az ablakok sarka”. Ez jelentheti (1) sok ablak egy közös sarkát, de (2) több ablak egy-egy sarkát is. Az első értelmet az angol egyes számmal fejezi ki („windows' corner”), a másodikat többes számmal („windows' corners”). A fordítási hiba abból adódik, hogy ez utóbbi kifejezés magyarul „az ablakok sarkait” is jelentheti (jelenthetné, hiszen minden ablaknak valóban több sarka van). Csak a szövegkörnyezet dönti el, hogy a „windows' corners” az ablakok több vagy egy-egy sarkát jelenti.|
+|Ha meg szeretné tekinteni a csoportokat, kattintson az OK gombra.|Ha meg szeretné tekinteni a csoportokat, _akkor_ kattintson az OK gombra. – VAGY – A csoportok megtekintéséhez kattintson az OK gombra.|A feltételes mondatok megértését, tagolását általában segíti a mutató névmás – az _akkor_ – kitétele. Vagy át is fogalmazhatjuk a mondatot|
 |Ellenőrizze, hogy a mező látszik-e.|Ügyeljen arra, hogy a mező látszódjon. – VAGY – A mezőnek (feltétlenül) látszania kell.|Tükörfordítás.|
 |<u>Jegyezzük meg</u>, hogy az ablakot be kell zárni, mielőtt kilépnénk a programból.|(Ügyeljünk arra, hogy) a programból való kilépés előtt az ablakot be kell zárni.|A „Note that” kifejezés hibás értelmezése, magyarban akár el is hagyható.|
 |A soros portok, <u>ha léteznek</u>,…|Az **esetleges** soros portok…|Nem túl magyaros.|

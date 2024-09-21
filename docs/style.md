@@ -32,6 +32,8 @@ Alapvetően személytelen egyes szám harmadik személyű megszólítást haszn�
 
 A személytelenségre törekvés nem csak az angolban igen gyakori birtokos szerkezetekre vonatkozik (például „_your_ computer” → a számítógép), hanem lehetőség szerint az igei szerkezetekben is a teljesen személytelen alakot kell választani (például „Then _you can set_ new options.” = „Ekkor új beállításokat is **meg lehet adni**.”).
 
+ Gyakran előfordulnak a „My Settings” jellegű szerkezetek, ilyenkor a **saját** szót használjuk, tehát a példánál maradva **Saját beállítások**.
+
 ## -ás, -és
 
 A stílus körébe tartozik az az általános szabály is, mely szerint a nem teljes mondat értékű igei szerkezetek főnevesítve fordítandók. Ezt a szabályt követjük magának a programnak a fordításakor is.
@@ -64,7 +66,7 @@ Mindig a tipográfiailag helyes szimbólumok használatára törekedjünk. A Lib
 |mellőzendő karakter|használandó karakter|használat|
 |-|-|-|
 |`...`|…|Három pont|
-|`""`|„”|Idézőjel|
+|`''` vagy `""`|„”|Idézőjel|
 |`-`, `--`|-, –, −|diviz, félkvirtmínusz, mínuszjel|
 |`N'N`|N’N|módosító aposztróf|
 |`60'`|60′|felső vessző, variáns, percmérték|

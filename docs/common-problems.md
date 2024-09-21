@@ -16,11 +16,11 @@ Ebben a részben olyan gyakori hibákat soroltunk fel, amelyeket a legtöbb kezd
 
 A _%s_ és úgy általában, minden változó névelője **a(z)**. Két-vagy háromalakú toldalékot pedig nem kap, ugyanezért: mert akármi állhat helyette, nem tudhatjuk, melyik kell. Az egyalakú toldalékok (-ig, -kor, stb.) elfogadhatók. A ragozás megkerülésére használt módszerek:
 
- - ha tudjuk, hogy micsoda a %s (fájl, könyvtár): „a(z) %s \[ fájlhoz | könyvtárhoz \]”
- - ha nem tudjuk, vagy több dolog is lehet: „a következőhöz: %s”
- - ha kis helyre kell beszorítani, vagy egy beviteli mező előtt áll egy „to:” (vagy hasonló): „ehhez:”
+ - Ha tudjuk, hogy micsoda a %s (fájl, könyvtár): „a(z) %s \[ fájlhoz | könyvtárhoz \]”.
+ - Ha nem tudjuk, vagy több dolog is lehet: „a következőhöz: %s”.
+ - Ha kis helyre kell beszorítani, vagy egy beviteli mező előtt áll egy „to:” (vagy hasonló): „ehhez:”.
 
-## „<programneve> is a…”
+## „\<programneve\> is a…”
 
 Az angol eredetiben gyakran láthatók ehhez hasonló szerkezetek, például névjegy panelen vagy állapotjelzésként, mert az angol nem használ névelőt a tulajdonnevek előtt. Viszont magyarul tegyünk elé névelőt, például: „A Gaim egy többfunkciós csevegőkliens”.
 

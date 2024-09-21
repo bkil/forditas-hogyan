@@ -108,41 +108,27 @@ Ennek most kevés értelme van, csak a példa kedvéért :)
 
 ### Speciális elemek
 
-A fordítás során találkozhatunk speciálisan kezelendő elemekkel is. Ilyenek a gyorsbillentyűk jelei, amely [GTK](GTK "wikilink") esetén az "\_" jel, [Qt](Qt "wikilink") esetén a „&” jel, amelyek a grafikus felületen gyorsbillentyűként működő karaktert jelölik. ([FIXME](FIXME "wikilink"): egyéb?) Ezekkel kapcsolatban az az ökölszabály, hogy ha az eredetiben van, akkor (és csakis akkor) a fordításban is legyen. Az adott kifejezés jellemző, hangsúlyos hangját vegyük figyelembe, műveleteknél az állítmányból jelöljünk ki gyorsbillentyűt. Továbbá inkább ne tegyünk ékezetes billentyűket gyorsbillentyűvé, mivel nem feltételezhetjük, hogy minden felhasználó rendelkezik magyar billentyűzettel. Ha lehetséges, kerüljük a <u>J</u> és <u>j</u>, illetve <u>I</u> és <u>i</u> gyorsbillentyűvé jelölését. Figyeljünk arra, hogy egy szinten ne legyen azonos gyorsbillentyű, itt az alapértelmezett fordítások (GTK, Qt) előnyt élveznek.
+A fordítás során találkozhatunk speciálisan kezelendő elemekkel is. Ilyenek a gyorsbillentyűk jelei, amely GTK esetén az `_` jel, Qt esetén a `&` jel, amelyek a grafikus felületen gyorsbillentyűként működő karaktert jelölik. Ezekkel kapcsolatban az az ökölszabály, hogy ha az eredetiben van, akkor (és csakis akkor) a fordításban is legyen. Az adott kifejezés jellemző, hangsúlyos hangját vegyük figyelembe, műveleteknél az állítmányból jelöljünk ki gyorsbillentyűt. Továbbá inkább ne tegyünk ékezetes billentyűket gyorsbillentyűvé, mivel nem feltételezhetjük, hogy minden felhasználó rendelkezik magyar billentyűzettel. Ha lehetséges, kerüljük a <u>J</u> és <u>j</u>, illetve <u>I</u> és <u>i</u> gyorsbillentyűvé jelölését. Figyeljünk arra, hogy egy szinten ne legyen azonos gyorsbillentyű, itt az alapértelmezett fordítások (GTK, Qt) előnyt élveznek.
 
-Másik kategória az xml címkék (`<valami>` és `</valami>`), ezeket soha nem fordítjuk le, ahogy vannak át kell őket másolni. A köztük lévő szöveget azonban igen, például: `<application>Text editor</application>` &rarr; `<application>Szövegszerkesztő</application>`, vagyis: `<ezt nem fordítjuk>ezt igen</ezt megint nem>`. Ezek hatására az adott szöveg a programban vagy dokumentációban más stílussal jelenik meg, például félkövéren, dőlten, kisebb/nagyobb méretben, stb.
+Másik kategória az XML címkék (`<valami>` és `</valami>`), ezeket soha nem fordítjuk le, át kell őket másolni. A köztük lévő szöveget azonban fordítjuk, például: `<application>Text editor</application>` &rarr; `<application>Szövegszerkesztő</application>`. Ezek hatására az adott szöveg a programban vagy dokumentációban más stílussal jelenik meg, például félkövéren, dőlten, kisebb/nagyobb méretben.
 
-Figyelni kell még a karakterlánc végén lévő "\\n" jelekre, amelyek sortörést végeznek a szövegben: ha a karakterlánc \\n-re végződik, a fordításnak is arra kell, különben az msgfmt panaszkodni fog.
+Figyelni kell még a karakterlánc végén lévő `\n` jelekre, amelyek sortörést végeznek a szövegben: ha a karakterlánc `\n`-re végződik, a fordításnak is arra kell, különben az `msgfmt` panaszkodni fog.
 
-Ritkábban, de előforduló speciális jelek:
+Ritkábban, de előforduló speciális eset az önálló `%` jel, például `for a literal % sign` esetén. Itt a szöveg magára a `%` jelre vonatkozik, viszont ez a C, C++ nyelvekben változót jelöl, emiatt a fordítás nem lesz menthető. Ilyenkor a `%%` használata megoldja a problémát, de ajánlott jelezni a fejlesztőnek, mert más fordítóknál is gond lesz.
 
- - önálló % jel, pl. "for a literal % sign" esetén. Itt a szöveg magára a "%" jelre vonatkozik, viszont ez a C, C++ nyelvekben változót jelöl ([FIXME](FIXME "wikilink"): más nyelvekben?), emiatt a fordítás nem lesz menthető. Ilyenkor a "%%" használata megoldja a problémát, de ajánlott jelezni a fejlesztőnek, mert más fordítóknál is gond lesz.
- - / jel: gtk alapú programoknál (al)menüt hoz létre, ha a szöveg elején, vagy végén van. Például a "/File/Print" egy "Print" menüpontot tesz a "File" menübe, emiatt a fordításnak is "/" jellel kell kezdődnie. Ezen kívül arra is figyelni kell, hogy a sor végén soha nem lehet "/" jel. (A programkódban nem létező almenüt hozna létre, amitől a program összeomlik.) Megjegyzés: ez elavult, várható hogy használata hamarosan kikopik.
+#### A GTK alapértelmezett ikonjai
 
-#### GTK+ alapértelmezett ikonok
+GNOME-os alkalmazások fordítandó üzenetei között fordulhatnak elő `gtk-\*` jellegűek (pl. `gtk-ok`, `gtk-yes`, `gtk-cancel`). Ezeket fölösleges lefordítani, mivel nem láthatók sehol. Érdemes ezeket is hibaként bejelenteni, ezeknek nem kellene fordíthatónak lenniük.
 
-GNOME-os alkalmazások fordítandó üzenetei között fordulhatnak elő „gtk-\*” jellegűek (pl. „gtk-ok”, „gtk-yes”, „gtk-cancel”). Ezeket fölösleges lefordítani, mivel nem láthatók sehol. A Glade &lt; 2.28 [http://bugzilla.gnome.org/show\_bug.cgi?id=352446 hibásan](http://bugzilla.gnome.org/show_bug.cgi?id=352446_hibásan "wikilink") fordításra jelöli ezeket, a javasolt eljárás a kérdéses .glade fájl megnyitása szövegszerkesztővel és a következőhöz [http://bugzilla.gnome.org/show\_bug.cgi?id=530090 hasonló](http://bugzilla.gnome.org/show_bug.cgi?id=530090_hasonló "wikilink") javítás alkalmazása:
+#### strftime(3) szerinti dátum- és időformátumok
 
-```XML
-- <property name="label" translatable="yes">gtk-close</property>
-+ <property name="label">gtk-close</property>
-```
+Általánosan elterjedt a dátumok és idők megadása ebben a formátumban, ami gyakorlatilag teljesen C-szerű, `%` jel + egy betű, így a fordítók saját nyelvük helyesírásának megfelelővé alakíthatják a programokban megjelenő dátumokat és időket. Ezek fel nem ismerése és emiatt helytelen fordítása is gyakori, ezért itt a leggyakrabban használt formátumleírókra hívnánk fel a figyelmet. Magyarul csak folyó szövegben szokás a 12 órás időformátum használata, azonban nem minden esetben fordítható az ilyen alak a 24 órásra; különösen igaz ez arra az esetre, amikor a felhasználónak kell választania a 12 vagy 24 órás formátumot.
 
-#### strftime(3) szerinti dátum-és időformátumok
+ - `%H:%M:%S` – óó:pp:mp, magyarul `%k:%M:%S` (például 9:15:13). Ennek oka, hogy a `%H` 00–23-ig, míg a `%k` 0–23-ig ábrázolja az órákat, ez utóbbi felel meg a magyar helyesírásnak.
+ - `%I:%M %p` (vagy `%P`) – (vagy kisbetűvel ugyanez), 12 órás formátum. Magyarul `%l:%M %p`, a `%I` és `%l` közti különbség ugyanaz, mint előbb.
+ - `%d %b %Y` - nn hh. éééé., (hónapnév rövidítve, `%B` esetén teljes) magyarul `%Y. %b. %e`, az év után pontot teszünk, valamint a rövidített hónapnév után is, (alapértelmezésben az nem tartalmazza a pontot) valamint a `%e` az előzőekhez hasonló ok miatt szükséges (1–31 között értelmezi a napot).
 
-Általánosan elterjedt a dátumok és idők megadása ebben a formátumban, ami gyakorlatilag teljesen C-szerű, % jel + egy betű, így a fordítók saját nyelvük helyesírásának megfelelővé alakíthatják a programokban megjelenő dátumokat és időket. Ezek fel nem ismerése és emiatt helytelen fordítása is gyakori, ezért itt a leggyakrabban használt formátumleírókra hívnám fel a figyelmet, valamint egy apró, már-már feledésbe merülő szabályra, miszerint az MHSZ (299. pont) szerint ha az órát és percet számjegyekkel írjuk ki, akkor közéjük . kerül. Bár a digitális órák miatt a : is elfogadható, lehetőség szerint inkább a . használata javasolt. Magyarul csak folyó szövegben szokás a 12 órás időformátum használata, azonban nem minden esetben fordítható az ilyen alak a 24 órásra; különösen igaz ez arra az esetre, amikor a felhasználónak kell választania 12 vagy 24 órás formátumon.
-
- - `%H:%M:%S` - óó:pp:mp, magyarul `%k.%M.%S` (pl: 9.15.13). Ennek oka, hogy a `%H` 00–23-ig, míg a `%k` 0–23-ig ábrázolja az órákat, ez utóbbi felel meg a magyar helyesírásnak.
-
-<!-- -->
-
- - `%I:%M %p` (vagy `%P`) – (vagy kisbetűvel ugyanez), 12 órás formátum. Magyarul `%l.%M %p`, a `%I` és `%l` közti különbség ugyanaz, mint előbb.
-
-<!-- -->
-
- - `%d %b %Y` - nn hh. éééé., (hónapnév rövidítve, `%B` esetén teljes) magyarul `%Y. %b. %e`, az év után pontot teszünk, valamint a rövidített hónapnév után is, (alapértelmezésben az nem tartalmazza a pontot) valamint a %e az előzőekhez hasonló ok miatt szükséges (1–31 között értelmezi a napot).
-
-A dátumok tagolására angolul használatos a / jel, magyarul inkább szóközökkel, esetleg kötőjelekkel válasszuk el a dátum részeit.
+A dátumok tagolására angolul a `/` jel használatos, magyarul inkább szóközökkel, esetleg kötőjelekkel válasszuk el a dátum részeit.
 
 ## Fordítási fájlok kezelése
 

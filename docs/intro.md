@@ -46,7 +46,7 @@ header-includes: |
 
 # Bevezetés
 
-Napjainkban számtalan szoftver és mellékelt dokumentum, használati útmutató érhető el angolul. A legtöbb projekt lehetőséget biztosít a felhasználói felületek, súgók és dokumentációk honosítására, így magyar változat is készíthető. Ezeket a fordításokat általában erre a célra kialakított webes fordítói felületen vagy a nyelvi fájlokat letöltve – egy célprogramban – készítjük el. Ezek az eszközök segítenek az egységes és jó minőségű fordítások gyorsabb elkészítésében.
+Napjainkban számtalan szoftver és mellékelt dokumentum, használati útmutató érhető el angolul. A legtöbb projekt lehetőséget biztosít a felhasználói felületek, súgók és dokumentációk honosítására, így magyar változat is készíthető. Ezeket a fordításokat általában erre a célra kialakított webes fordítói felületen, vagy a nyelvi fájlokat letöltve – egy célprogramban – készítjük el. Ezek az eszközök segítenek az egységes és jó minőségű fordítások gyorsabb elkészítésében.
 
 A legfontosabb szempontok fordításkor:
 
@@ -71,8 +71,7 @@ A fordítónak törekednie kell a fenti célok magvalósítására. Ezen munka s
 
 Senki sem tudhat mindent. Nem csak azért, mert az emberi memória véges; azért sem, mert fordításainknál mind a terminológia, mind az alapelvek időről időre változnak. Minden fordítót arra szeretnénk kérni, hogy – legalábbis a fordítás idejére – néha bizonytalanodjon el akár a helyesírást, akár a kifejezéseket, akár az íratlan szabályokat illetően.
 
-Mi a teendő, ha ez sikerült? A helyesírási kételyeket eloszlatja a tanácsadó szótár, a terminológiai gondokat többnyire megoldja a szószedet, a szabályok jórészt megtalálhatók ebben az útmutatóban. A többi fordító is készséggel segít, a Telegram és Matrix csatornáinkon bármikor segítséget lehet kérni:
+Mi a teendő, ha ez sikerült? A helyesírási kételyeket eloszlatja a tanácsadó szótár, a terminológiai gondokat többnyire megoldja a szószedet, a szabályok jórészt megtalálhatók ebben az útmutatóban. A többi fordító is készséggel segít, a Matrix csatornáinkon és a levelezőlistánkon bármikor segítséget lehet kérni:
 
- - Telegram-csoport hivatkozása: <https://t.me/joinchat/DIfJOgiG22VjI1f616aZWA>
  - Matrix-csatorna hivatkozása: <https://riot.grin.hu/#/room/#openscope:grin.hu>
-
+ - Levelezőlista címe: <openscope@fsf.hu>
