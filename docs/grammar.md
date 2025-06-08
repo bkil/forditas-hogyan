@@ -43,7 +43,7 @@ Ne használjunk felesleges igekötőket, a leggyakoribb hibák:
 
 ## Elvész
 
-Ha tönkremegy a lemez, minden adatunk **elvész**. Nem helytelen az elveszik szó sem, de kevésbé szép, és bizonyos esetekben összetéveszthető az elvenni ige T/3 alakjával. Használjuk inkább az **elvész** alakot.
+Ha tönkremegy a lemez, minden adatunk **elvész**. Nem helytelen az <u>elveszik</u> szó sem, de kevésbé szép, és bizonyos esetekben összetéveszthető az elvenni ige T/3 alakjával. Használjuk inkább az **elvész** alakot.
 
 ## Műveltetés
 
@@ -59,7 +59,7 @@ Mindig újabb és újabb idegen szavak jelennek meg, melyeket fonetikusan megpr�
 
 Természetesen itt se essünk át a ló túlsó oldalára, egyes fonetikus átírások már meghonosodtak a köznyelvben:
 
-* **domén** (vagy bizonyos jelentésben **tartomány**)
+* **domén** (de ez általában inkább **tartomány**)
 * **emodzsi**
 * **kapucsínó**
 
@@ -73,7 +73,7 @@ Megegyezés alapján a könyvtárak, fájlok neve előtt a névelőt úgy tessz�
  - **az /mnt** („az ementé”)
  - **az /opt/gnome2/bin** („az opt gnómkettő bin”)
  - **az /sbin/ifconfig** („az esbin íefkonfig”)
- - **a ~/.bashrc** („a bashrc”)
+ - **a ~/.bashrc** („a besercé”)
 
 ## Ragozott fájlnevek
 

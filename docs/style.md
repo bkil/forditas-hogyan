@@ -8,20 +8,20 @@ A jó stílushoz hozzátartozik, hogy lehetőleg ne vegyünk át és ne is épí
 
 Példák:
 
- - adminisztrál → kezel, felügyel
- - applikáció → alkalmazás
- - dekódolás → visszafejtés
- - font → betűkészlet, betű
- - generál → előállít
- - implementáció → megvalósítás
- - komponens → összetevő, elem
- - link → hivatkozás
- - metódus → eljárás, módszer
- - opcionális → választható
- - permanens → állandó
- - script → parancsfájl
+ - <u>adminisztrál</u> → **kezel**, **felügyel**
+ - ~~applikáció~~ → **alkalmazás**
+ - <u>dekódolás</u> → **visszafejtés**
+ - ~~font~~ → **betűkészlet**, **betű**
+ - <u>generál</u> → **előállít**
+ - <u>implementáció</u> → **megvalósítás**
+ - <u>komponens</u> → **összetevő**, **elem**
+ - <u>link</u> → **hivatkozás**
+ - <u>metódus</u> → **eljárás**, **módszer**
+ - <u>opcionális</u> → **választható**, **nem kötelező**
+ - <u>permanens</u> → **állandó**
+ - ~~script~~ → **parancsfájl**
 
-Ne essünk át azonban a ló túlsó oldalára, a magyarítás soha ne menjen az érthetőség rovására.
+Ne essünk át azonban a ló túlsó oldalára, a magyarítás sose menjen az érthetőség rovására.
 
 ## Az olvasó megszólítása
 

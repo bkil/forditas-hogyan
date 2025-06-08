@@ -1,4 +1,4 @@
-utasít# Források és további információk
+# Források és további információk
 
 ## Élő források
 
@@ -6,6 +6,7 @@ utasít# Források és további információk
 - [Online OpenScope terminológiai szótár](https://bkil.github.io/openscope-dict-eng-hun/)
 - [Microsoft terminológia](https://learn.microsoft.com/en-us/globalization/reference/microsoft-language-resources#terminology)
 - [A magyar helyesírás szabályai, 12. kiadás](https://helyesiras.mta.hu/helyesiras/default/akh12)
+- MTA helyesírási tanácsadási portál: [Egybeírás-különírás ellenőrzése](https://helyesiras.mta.hu/helyesiras/default/kulegy)
 
 ## Elévült források
 
@@ -15,8 +16,3 @@ utasít# Források és további információk
 - [Fordítási útmutató - Szabad szoftverek magyarításához](http://forditas.fsf.hu/html/Utmutato.html): Egy elévült dokumentum amit alapul vettünk ezen leírás létrehozásához.
 - [Letölthető Microsoft .tbx terminológiai szótár és fogalommagyarázat](https://microsoft.com/en-us/language/terminology)
 - [Kereshető, szabadon hozzáférhető, online Microsoft Glossary](https://microsoft.com/en-us/language/Search): a terminológiai szótárban is és a felületi fordításokban is keres
-
-<!--
-- [PO-fájlok helyesírás-ellenőrzése](http://forditas.fsf.hu/huspell-po.html)
-- [Fordítás HOGYAN](http://tldp.fsf.hu/Forditas-HOGYAN/Forditas-HOGYAN.html): a TLDP útmutatója
--->

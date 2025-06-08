@@ -1,7 +1,7 @@
 ---
 title: Test
 author: FSF.hu Alapítvány
-date: 2024-01-07
+date: 2025. június 7.
 geometry: margin=1in
 indent: true
 fontfamily: libertinus

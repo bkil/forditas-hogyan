@@ -43,7 +43,7 @@ Az egybeírás–különírás témakörében még egy szabályt, az egyik úgyn
 
 Itt szeretnénk felhívni a figyelmet arra, hogy az angol (és sok más) nyelv szerkezetéből és szóalkotási módszereiből következően az eredeti szöveg tükörfordítása esetén igen könnyen keletkeznek sokszorosan összetett és rendkívül hosszú szörnyetegek. A *fényképezőgépállványtoktartóanyacsavarfejalátétgumilapocska-készlet* típusú szavak helyesírási szempontból nem számítanak hibásnak, de ha egy mód van rá, tanácsoljuk és kérjük az összes bonyolult, kicsit is döcögő szerkezetet átfogalmazni.
 
-A betűszókhoz és a tulajdonnévi szóösszevonásokhoz kötőjellel fűzzük az utótagokat: **IP-cím**, **DHCP-kiszolgáló**, **X-szerver**, **Mozilla-ablak** stb.
+A betűszókhoz és a tulajdonnévi szóösszevonásokhoz kötőjellel fűzzük az utótagokat: **IP-cím**, **DHCP-kiszolgáló**, **Mozilla-ablak** stb.
 
 Nem kötőjelesek a következők: **XFree86 kiszolgáló**, **TCP/IP protokoll** stb., hiszen itt bizonyos dolgok (kiszolgáló, protokoll) egy adott névvel ellátott típusáról van szó.
 
@@ -179,9 +179,9 @@ A számítástechnikai szövegekben igen sok angol betűszó (pl. TCP/IP) szerep
  - Lehetőleg próbáljuk elkerülni a betűszavak ragozását – ez a mondat megfelelő szerkesztésével sokszor megoldható.
  - Ha mégis elkerülhetetlen ragozni, lehetőleg a szó magyar kiejtési szabálya szerinti toldalékot válasszuk: **WAN-nal**, nem pedig ~~WAN-nel~~. Ettől csak akkor térjünk el, ha az illető szó angol hangalakja már teljesen meggyökeresedett – legalább a szaknyelvben: **DOS-szal** (nem ~~DOS-sal~~).
 
-#### Projekt specifikus tudnivalók
+#### Projektfüggő tudnivalók
 
- - A GNOME projekt esetén az egyes beépített alkalmazások neveit is lefordítjuk. Például: GNOME Photos → **GNOME Fényképek**, GNOME Builder → **GNOME Építő**.
+ - A GNOME projekt esetén főszabályként az egyes beépített alkalmazások neveit is lefordítjuk. Például: GNOME Photos → **GNOME Fényképek**, GNOME Builder → **GNOME Építő**.
  - A Mozilla projektek neveit nem fordítjuk le. Például Mozilla Firefox, Mozilla Thunderbird, és nem: ~~Tűzróka~~, ~~Vörös panda~~, ~~Viharmadár~~.
 
 ### Címek
@@ -286,7 +286,7 @@ Egybeírjuk, ha határozószó, vagyis ha az a vagy e nem értelmezhető mutató
 | **irt** (jelen idejű ige) | Rövid i. Például **vírusirtó** |
 | **kiváló** | Rövid i. |
 | **kíván, kíváncsi** | Hosszú í. |
-| **kisbetű** | Ha azt kell kifejezni, hogy abcde és nem ABCDE, akkor egy szó. Ha esetleg alig olvasható szövegről van szó, <small>mint ez itt</small> (ami persze tartalmazhat kis- és és nagybetűket is), akkor ez a szöveg **kis betűkkel** van írva. |
+| **kisbetű** | Ha azt kell kifejezni, hogy abcde és nem ABCDE, akkor egy szó. Ha esetleg alig olvasható szövegről van szó, akkor ez a szöveg **kis betűkkel** van írva. |
 | **l.** | = lásd. Nem ~~ld.~~ és nem is ~~lsd.~~. Lehetőleg inkább írjuk ki, hogy **lásd**. |
 | **licenc, licence, licencet, licenccel, licencel** | Nem ~~licensz~~ és nem is ~~liszensz~~! (Az angol alak license, tehát például GPL = General Public License, ezt nem fordítjuk le magyarra.) A magyarba német közvetítéssel jutott (vö. [die Lizenz](https://www.duden.de/rechtschreibung/Lizenz)). |
 | **merevlemez** | Egy szó. |
